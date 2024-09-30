@@ -30125,7 +30125,7 @@ const data3: Protocol[] = [
     cmcId: null,
     category: "Lending",
     chains: ["Ethereum"],
-    oracles: [],
+    oracles: ["Chronicle"],
     forkedFrom: [],
     module: "morpho-blue/index.js",
     twitter: "MorphoLabs",
