@@ -154,7 +154,6 @@ const handler = async (event: any): Promise<IResponse> => {
       usd_market_cap: mcap,
       usd: price,
       last_updated_at: SK,
-      usd_24h_vol: volume,
     } = newData[id];
 
     PKTransforms[PK].forEach((coinName) => {
@@ -178,7 +177,6 @@ const handler = async (event: any): Promise<IResponse> => {
             timestamp: SK,
             symbol,
             confidence,
-            volume
           },
           {
             PK: `coingecko#${id}`,
@@ -186,7 +184,6 @@ const handler = async (event: any): Promise<IResponse> => {
             price,
             confidence,
             adapter: "updateCoin",
-            volume
           },
         ],
       );
