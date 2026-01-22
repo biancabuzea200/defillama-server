@@ -15776,7 +15776,16 @@ const data4: Protocol[] = [
     gecko_id: null,
     cmcId: null,
     category: "Yield",
-    chains: ["Ethereum"],
+    chains: ["Ethereum", "Arbitrum"],
+     oraclesBreakdown: [
+      {
+        name: "Chronicle",
+        type: "Primary",
+        proof: [
+        ],
+        chains: [{ chain: "Arbitrum" }],
+      },
+    ],
     module: "infiniFi/index.js",
     twitter: "infiniFi",
     github: ["InfiniFi-Labs"],
