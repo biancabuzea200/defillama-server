@@ -28295,7 +28295,7 @@ const data4: Protocol[] = [
   },
   {
     id: "6794",
-    name: "Tigris Mezo",
+    name: "Tigris Mezo V2",
     address: null,
     symbol: "-",
     url: "https://mezo.org/explore/pools",
@@ -28309,6 +28309,7 @@ const data4: Protocol[] = [
     chains: ["Mezo"],
     module: "mezo-tigris/index.js",
     twitter: "MezoNetwork",
+    //parentProtocol: "parent#mezo-swap", // pending to add parent protocol
     listedAt: 1759338887
   },
   {

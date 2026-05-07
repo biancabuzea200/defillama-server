@@ -9648,6 +9648,17 @@ const parentProtocols: IParentProtocol[] = [
     twitter: "HermeticaFi",
     stablecoins: ["hermetica-usdh"],
   },
+  /*{ projects all by mezo network team
+    id: "parent#mezo-swap",
+    name: "Mezo Swap",
+    url: "https://mezo.org/",
+    description: "Mezo Swap is a decentralized exchange on Mezo.",
+    logo: `${baseIconsUrl}/mezo-swap.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "MezoNetwork",
+  },*/
 ];
 
 export default parentProtocols;

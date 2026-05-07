@@ -2255,5 +2255,44 @@ const data6: Protocol[] = [
       dexs: "landbid",
     }
   },
+  {
+    id: "7815",
+    name: "Tigris Mezo V3",
+    address: null,
+    symbol: "-",
+    url: "https://mezo.org/explore/pools",
+    description: "A concentrated liquidity DEX based on Velodrome Slipstream",
+    chain: "Mezo",
+    logo: `${baseIconsUrl}/tigris-mezo-v3.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    tags: ["CLMM"],
+    chains: ["Mezo"],
+    module: "mezo-tigris-v3/index.js",
+    forkedFromIds: ["2198"],
+    twitter: "MezoNetwork",
+    //parentProtocol: "parent#mezo-swap", // pending to add parent protocol
+    listedAt: 1778194227
+  },
+  {
+    id: "7816",
+    name: "Mezo Vaults",
+    address: null,
+    symbol: "-",
+    url: "https://mezo.org/earn/vaults",
+    description: "Mezo Vaults are yield-generating strategies that deploy your assets across DeFi to earn returns. Deposit into a vault, receive a receipt token representing your position, and let the strategist optimize for yield",
+    chain: "Mezo",
+    logo: `${baseIconsUrl}/mezo-vaults.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Yield Aggregator",
+    chains: ["Mezo"],
+    module: "mezo-vaults/index.js",
+    twitter: "MezoNetwork",
+    //parentProtocol: "parent#mezo-swap", // pending to add parent protocol
+    listedAt: 1778194507
+  },
 ];
 export default data6;
