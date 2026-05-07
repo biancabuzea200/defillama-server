@@ -1747,7 +1747,7 @@ const data6: Protocol[] = [
     cmcId: null,
     category: "Crypto Card Issuer",
     chains: ["Plasma"],
-    module: "dummy.js",
+    module: "plasma-one/index.js",
     twitter: "Plasma",
     dimensions: {
       fees: "plasma-one",
