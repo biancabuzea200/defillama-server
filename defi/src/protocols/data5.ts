@@ -16402,6 +16402,9 @@ const data5: Protocol[] = [
     module: "saturn-protocol/index.js",
     twitter: "saturn_credit",
     listedAt: 1775766807,
+    dimensions: {
+      fees: "saturn-protocol",
+    }
   },
   {
     id: "7647",

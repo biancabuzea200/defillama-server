@@ -2215,5 +2215,45 @@ const data6: Protocol[] = [
     twitter: "oraichain",
     listedAt: 1778177963
   },
+  {
+    id: "7813",
+    name: "Xeno Money",
+    address: null,
+    symbol: "-",
+    url: "https://app.xeno.money/",
+    description: "Xeno Money's sISKe vault is a Base ERC-4626 yield vault where users deposit Monerium's ISKe stablecoin and receive sISKe, with yield passed through from the underlying reserves",
+    chain: "Base",
+    logo: `${baseIconsUrl}/xeno-money.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Yield",
+    chains: ["Base"],
+    module: "xeno-money/index.js",
+    twitter: "Xeno_Money",
+    listedAt: 1778189505
+  },
+  {
+    id: "7814",
+    name: "Land Bid",
+    address: "base:0xB738b1568F08B0d6894a580Ef805E9298ebFaB46",
+    symbol: "LAND",
+    url: " ", // pending to add url https://landbid.xyz
+    description: "Land Bid is a competitive on-chain continent mining game on Base where players pay ETH to conquer continents and earn LAND tokens through ongoing gameplay",
+    chain: "Base",
+    logo: `${baseIconsUrl}/land-bid.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Gamified Mining",
+    chains: ["Base"],
+    module: "dummy.js",
+    twitter: "landbidbase",
+    github: ["landbidbase"],
+    dimensions: {
+      fees: "landbid",
+      dexs: "landbid",
+    }
+  },
 ];
 export default data6;
