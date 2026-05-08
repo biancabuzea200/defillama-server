@@ -10718,6 +10718,9 @@ const data4: Protocol[] = [
     twitter: "Main_St_Finance",
     stablecoins: ["main-street-usd"],
     listedAt: 1744280825,
+    dimensions: {
+      fees: "mainstreet"
+    }
   },
   {
     id: "6023",
