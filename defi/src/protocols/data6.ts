@@ -2298,5 +2298,28 @@ const data6: Protocol[] = [
     //parentProtocol: "parent#mezo-swap", // pending to add parent protocol
     listedAt: 1778194507
   },
+  {
+    id: "7817",
+    name: "Rise.rich",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://rise.rich/
+    description: "Solana launchpad with built-in lending. Token bonding curves and borrow markets are accounted for by the underlying Mayflower program",
+    chain: "Solana",
+    logo: `${baseIconsUrl}/rise.rich.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Launchpad",
+    chains: ["Solana"],
+    module: "dummy.js",
+    twitter: "risedotrich",
+    github: ["riserich"],
+    listedAt: 1778254222,
+    dimensions: {
+      dexs: "rise",
+      fees: "rise",
+    },
+  },
 ];
 export default data6;
