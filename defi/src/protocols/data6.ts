@@ -2116,7 +2116,7 @@ const data6: Protocol[] = [
     cmcId: null,
     category: 'Anchor BTC',
     chains: ["Stacks"],
-    module: "hermetics-hbtc/index.js",
+    module: "hermetica-hbtc/index.js",
     twitter: "HermeticaFi",
     parentProtocol: "parent#hermetica",
     excludeTvlFromParent: true, // full tvl value is represented under the usdh product
