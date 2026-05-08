@@ -9652,7 +9652,7 @@ const parentProtocols: IParentProtocol[] = [
     id: "parent#mezo-swap",
     name: "Mezo Tigris",
     url: "https://mezo.org/",
-    description: "Mezo Swap is a decentralized exchange on Mezo.",
+    description: "Mezo Tigris is a decentralized exchange on Mezo.",
     logo: `${baseIconsUrl}/mezo-tigris.jpg`,
     gecko_id: null,
     cmcId: null,
