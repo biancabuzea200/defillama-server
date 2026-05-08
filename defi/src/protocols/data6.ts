@@ -2317,8 +2317,8 @@ const data6: Protocol[] = [
     github: ["riserich"],
     listedAt: 1778254222,
     dimensions: {
-      dexs: "rise",
-      fees: "rise",
+      dexs: "rise-launchpad",
+      fees: "rise-launchpad",
     },
   },
 ];
