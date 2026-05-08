@@ -68,6 +68,7 @@ interface SearchResult {
   alias4?: string;
   alias5?: string;
   r?: number;
+  topLevelRank?: number;
   v: number;
 }
 
@@ -90,6 +91,11 @@ export const SEARCH_RANK = {
   collection: 2,
   subPage: 1,
   deprecated: -1,
+} as const;
+
+export const SEARCH_DEPTH_RANK = {
+  topLevel: 1,
+  subPage: 0,
 } as const;
 
 interface FrontendPage {
@@ -116,6 +122,12 @@ interface StablecoinSearchInput {
   circulating: { peggedUSD: number };
 }
 
+interface ProtocolSearchSource {
+  name: string;
+  category?: string;
+  tvl?: number | null;
+}
+
 export const PAGES_INDEX_SETTINGS = {
   searchableAttributes: [
     "alias1",
@@ -130,9 +142,19 @@ export const PAGES_INDEX_SETTINGS = {
     "nameVariants",
     "keywords",
   ],
-  rankingRules: ["words", "typo", "proximity", "exactness", "r:desc", "attribute", "v:desc", "sort"],
+  rankingRules: [
+    "words",
+    "typo",
+    "proximity",
+    "topLevelRank:desc",
+    "exactness",
+    "r:desc",
+    "attribute",
+    "v:desc",
+    "sort",
+  ],
   filterableAttributes: ["type", "deprecated", "subName"],
-  sortableAttributes: ["v", "tvl", "name", "mcapRank", "r"],
+  sortableAttributes: ["v", "tvl", "name", "mcapRank", "r", "topLevelRank"],
   displayedAttributes: [
     "id",
     "name",
@@ -146,20 +168,20 @@ export const PAGES_INDEX_SETTINGS = {
     "symbol",
   ],
   synonyms: {
-    stable: ["stablecoin", "stablecoins"],
-    stablecoin: ["stable", "stablecoins"],
-    stablecoins: ["stable", "stablecoin"],
-    mcap: ["market cap", "marketcap"],
-    marketcap: ["market cap", "mcap"],
+    "stable": ["stablecoin", "stablecoins"],
+    "stablecoin": ["stable", "stablecoins"],
+    "stablecoins": ["stable", "stablecoin"],
+    "mcap": ["market cap", "marketcap"],
+    "marketcap": ["market cap", "mcap"],
     "market cap": ["mcap", "marketcap"],
-    tvl: ["total value locked"],
-    apy: ["yield", "yields"],
-    yield: ["apy", "yields"],
-    yields: ["apy", "yield"],
-    dex: ["dexs", "exchange"],
-    dexs: ["dex", "exchanges"],
-    cex: ["cexs", "exchange"],
-    cexs: ["cex", "exchanges"],
+    "tvl": ["total value locked"],
+    "apy": ["yield", "yields"],
+    "yield": ["apy", "yields"],
+    "yields": ["apy", "yield"],
+    "dex": ["dexs", "exchange"],
+    "dexs": ["dex", "exchanges"],
+    "cex": ["cexs", "exchange"],
+    "cexs": ["cex", "exchanges"],
   },
 } as const;
 
@@ -222,6 +244,7 @@ export function buildFrontendPageSearchResult({
     ...(routeAlias ? { routeAlias } : {}),
     ...getPageSearchAliases(keywords),
     r: SEARCH_RANK.navPage,
+    topLevelRank: SEARCH_DEPTH_RANK.topLevel,
     v: tastyMetrics[page.route] ?? 0,
     type,
     ...(hideType ? { hideType } : {}),
@@ -253,9 +276,14 @@ export function buildProtocolSearchResult({
     ...(previousNames?.length ? { previousNames: [...previousNames] } : {}),
     ...(variants.length ? { nameVariants: variants } : {}),
     r: deprecated ? SEARCH_RANK.deprecated : SEARCH_RANK.entity,
+    topLevelRank: SEARCH_DEPTH_RANK.topLevel,
     v,
     type: "Protocol",
   };
+}
+
+export function shouldSkipProtocolSearchResult(protocol: ProtocolSearchSource, chainNames: Set<string>) {
+  return protocol.category === "Canonical Bridge" && chainNames.has(protocol.name) && !protocol.tvl;
 }
 
 export function buildStablecoinSearchResult(
@@ -271,6 +299,7 @@ export function buildStablecoinSearchResult(
     logo: `https://icons.llamao.fi/icons/pegged/${slug}?w=48&h=48`,
     route: `/stablecoin/${slug}`,
     r: SEARCH_RANK.entity,
+    topLevelRank: SEARCH_DEPTH_RANK.topLevel,
     v: tastyMetrics[`/stablecoin/${slug}`] ?? 0,
     type: "Stablecoin",
   };
@@ -300,8 +329,7 @@ export function dedupeFrontendPageResults(results: SearchResult[]): SearchResult
     // the longer one into `nameVariants` so it still matches at search time,
     // and union `keywords` + recompute aliases.
     const sameName = existing.name.trim().toLowerCase() === result.name.trim().toLowerCase();
-    const [primary, secondary] =
-      result.name.length < existing.name.length ? [result, existing] : [existing, result];
+    const [primary, secondary] = result.name.length < existing.name.length ? [result, existing] : [existing, result];
 
     const nameVariants = sameName
       ? mergeKeywords(existing.nameVariants, result.nameVariants)
@@ -557,6 +585,7 @@ export const getProtocolSubSections = ({
     ...rest,
     v: tastyMetrics[rest.route] ?? 0,
     r: rest.r === SEARCH_RANK.deprecated ? SEARCH_RANK.deprecated : SEARCH_RANK.subPage,
+    topLevelRank: SEARCH_DEPTH_RANK.subPage,
   }));
 };
 
@@ -968,8 +997,10 @@ async function generateSearchList() {
   const protocols: Array<SearchResult> = [];
   const subProtocols: Array<SearchResult> = [];
   const metadataChainSlugs = new Set<string>();
+  const metadataChainNames = new Set<string>();
   for (const chainSlug in chainsMetadata) {
     metadataChainSlugs.add(chainSlug);
+    metadataChainNames.add(chainsMetadata[chainSlug].name);
   }
 
   // Parent protocols are first-class protocol search results. Their child
@@ -1008,6 +1039,7 @@ async function generateSearchList() {
   // added unless they hit the narrow `chain#` fallback below.
   for (const protocol of tvlData.protocols) {
     if (protocol.name === "LlamaSwap") continue;
+    if (shouldSkipProtocolSearchResult(protocol, metadataChainNames)) continue;
     const prevNames = previousNamesMap.get(protocol.name);
     const result = buildProtocolSearchResult({
       id: `protocol_${normalize(protocol.name)}`,
@@ -1335,6 +1367,7 @@ async function generateSearchList() {
         ...rest,
         v: tastyMetrics[rest.route] ?? 0,
         r: SEARCH_RANK.subPage,
+        topLevelRank: SEARCH_DEPTH_RANK.subPage,
       }))
     );
   }
@@ -1614,6 +1647,7 @@ async function generateSearchList() {
     ].map((result: any) => ({
       ...result,
       r: result.r ?? 1,
+      topLevelRank: result.topLevelRank ?? SEARCH_DEPTH_RANK.topLevel,
     })),
     directoryResults: buildDirectoryResults(tvlData, parentTvl, tastyMetrics),
     // `searchlist.json` is a small popular-results fallback, not the complete
