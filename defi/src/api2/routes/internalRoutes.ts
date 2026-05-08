@@ -17,9 +17,14 @@ export function setInternalRoutes(router: HyperExpress.Router, _routerBasePath: 
     const routerPath = fullPath.split('debug-pg')[1];
     const secretKey = req.headers['x-internal-secret'] ?? req.query['x-internal-secret']
     try {
+      if (!INTERNAL_SECRET_KEY)
+        throw new Error('Internal secret key not defined')
 
       if (process.env.API2_SKIP_SUBPATH === 'true')
-        if (!secretKey || secretKey !== INTERNAL_SECRET_KEY) throw new Error('Unauthorized')
+        if (!secretKey || secretKey !== INTERNAL_SECRET_KEY)
+          throw new Error('Unauthorized')
+
+      // there is no need for else, as API2_SUBPATH would act as the temp secret key in this case
 
       switch (req.method) {
         case 'DELETE':
