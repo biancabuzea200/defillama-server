@@ -2321,5 +2321,23 @@ const data6: Protocol[] = [
       fees: "rise-launchpad",
     },
   },
+  {
+    id: "7818",
+    name: "Quai Network",
+    address: null,
+    symbol: "QUAI",
+    url: "https://www.qu.ai/",
+    description: "Quai is a Proof-of-Work Layer 1 that uses merged mining and parallel execution shards, with QUAI for EVM-compatible smart contract activity and QI as a UTXO-based payment token",
+    chain: "Quai",
+    logo: `${baseIconsUrl}/quai-network.jpg`,
+    audits: "0",
+    gecko_id: "quai-network",
+    cmcId: "22354",
+    category: "Chain",
+    chains: ["Quai"],
+    module: "dummy.js",
+    twitter: "QuaiNetwork",
+  },
+
 ];
 export default data6;
