@@ -26962,6 +26962,11 @@ const data4: Protocol[] = [
     chains: ["Solana"],
     module: "dummy.js",
     twitter: "LABtrade_",
+    warningBanners: [
+      {
+        message: "Community members have raised concerns about this protocol activity and token distribution. Be carefully. https://x.com/SpecterAnalyst/status/2052334885776368019",
+        level: "alert",
+      }],
     dimensions: {
       fees: "lab-terminal"
     }
