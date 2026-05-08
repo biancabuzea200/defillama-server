@@ -2276,7 +2276,7 @@ const data6: Protocol[] = [
     module: "mezo-tigris-v3/index.js",
     forkedFromIds: ["2198"],
     twitter: "MezoNetwork",
-    //parentProtocol: "parent#mezo-swap", // pending to add parent protocol
+    parentProtocol: "parent#mezo-swap",
     listedAt: 1778194227
   },
   {

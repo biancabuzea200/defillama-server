@@ -28317,7 +28317,7 @@ const data4: Protocol[] = [
     chains: ["Mezo"],
     module: "mezo-tigris/index.js",
     twitter: "MezoNetwork",
-    //parentProtocol: "parent#mezo-swap", // pending to add parent protocol
+    parentProtocol: "parent#mezo-swap",
     listedAt: 1759338887
   },
   {

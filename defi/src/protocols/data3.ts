@@ -43226,10 +43226,11 @@ const data3_2: Protocol[] = [
     audits: "0",
     gecko_id: "tensor",
     cmcId: null,
-    category: "Chain",
+    category: "NFT Marketplace",
     chains: ["Solana"],
-    module: "dummy.js",
+    module: "tensor/index.js",
     twitter: "TensorFdn",
+    listedAt: 1778252901,
   },
   {
     id: "4641",

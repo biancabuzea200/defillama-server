@@ -3855,6 +3855,9 @@ const data2: Protocol[] = [
     twitter: "Kleros_io",
     listedAt: 1647396444,
     github: ["kleros"],
+    dimensions: {
+      fees: "kleros",
+    }
   },
   {
     id: "1555",
