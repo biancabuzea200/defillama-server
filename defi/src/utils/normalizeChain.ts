@@ -1932,6 +1932,7 @@ export const chainCoingeckoIds = {
     url: "https://aptosfoundation.org/",
     dimensions: {
       fees: "aptos",
+      "active-users": "aptos",
     },
   },
   "Kekchain": {
@@ -2321,6 +2322,7 @@ export const chainCoingeckoIds = {
     url: "https://sui.io/",
     dimensions: {
       fees: "sui",
+      "active-users": "sui",
     },
   },
   "Grove": {
