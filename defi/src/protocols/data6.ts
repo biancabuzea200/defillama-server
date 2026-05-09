@@ -2360,5 +2360,26 @@ const data6: Protocol[] = [
       fees: "dexr",
     },
   },
+  {
+    id: "7820",
+    name: "Sour Finance",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://sour.finance/
+    description: "Sour is a Solana perpetuals DEX",
+    chain: "Solana",
+    logo: `${baseIconsUrl}/sour-finance.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Derivatives",
+    chains: ["Solana"],
+    module: "dummy.js",
+    twitter: "SourFinance",
+    dimensions: {
+      derivatives: "sour",
+      fees: "sour",
+    },
+  },
 ];
 export default data6;

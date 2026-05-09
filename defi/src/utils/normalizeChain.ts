@@ -177,6 +177,9 @@ export const chainCoingeckoIds = {
     twitter: "Stacks",
     categories: ["Bitcoin Sidechains"],
     url: "https://www.stacks.co/",
+    dimensions: {
+      fees: "stacks",
+    },
   },
   "PolyNetwork": {
     geckoId: null,

@@ -32031,7 +32031,8 @@ const data3_1: Protocol[] = [
     github: ["BitflowFinance"],
     listedAt: 1708044671,
     dimensions: {
-      dexs: "bitflow-fi"
+      dexs: "bitflow-fi",
+      fees: "bitflow-fi"
     }
   },
   {
