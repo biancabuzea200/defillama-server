@@ -10037,7 +10037,10 @@ const data5: Protocol[] = [
     module: "sierra-money/index.js",
     twitter: "SierraIsMoney",
     audit_links: ["https://cantina.xyz/portfolio/967eeb2b-b6f6-4b17-b819-9bfb450876ca"],
-    listedAt: 1770100267
+    listedAt: 1770100267,
+    dimensions: {
+      fees: "sierra",
+    },
   },
   {
     id: "7346",

@@ -2339,6 +2339,26 @@ const data6: Protocol[] = [
     module: "dummy.js",
     twitter: "QuaiNetwork",
   },
-
+  {
+    id: "7819",
+    name: "DEXR",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://dexr.finance
+    description: "DEXR is a DEX aggregator on Base mainnet that routes swaps across 8 underlying DEXes to find the best execution price",
+    chain: "Base",
+    logo: `${baseIconsUrl}/dexr.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "DEX Aggregator",
+    chains: ["Base"],
+    module: "dummy.js",
+    twitter: "DexrFinance",
+    dimensions: {
+      aggregators: "dexr",
+      fees: "dexr",
+    },
+  },
 ];
 export default data6;

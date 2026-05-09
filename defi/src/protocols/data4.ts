@@ -20798,6 +20798,9 @@ const data4: Protocol[] = [
     audit_links: ["https://docs.stakedhype.fi/technical/audits"],
     parentProtocol: "parent#valantis",
     listedAt: 1753110072,
+    dimensions: {
+      fees: "staked-hype",
+    },
     hallmarks: [
       [1755561600,"Valantis acquired stakedhype"],
     ],
