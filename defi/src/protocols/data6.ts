@@ -1259,7 +1259,7 @@ const data6: Protocol[] = [
     symbol: "-",
     url: "https://www.r25.xyz/",
     description:
-      "R25 is an RWA stablecoin protocol that issues rcUSD against tokenized money market funds and stablecoins",
+      "R25 builds RWA vault infrastructure that enables automated and curated on-chain yield strategies",
     chain: "Pharos",
     logo: `${baseIconsUrl}/r25.jpg`,
     audits: "0",
