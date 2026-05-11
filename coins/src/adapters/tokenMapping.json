@@ -9957,6 +9957,18 @@
       "to": "coingecko#genesys"
     }
   },
+  "etica": {
+    "0x0000000000000000000000000000000000000000": {
+      "decimals": "18",
+      "symbol": "ETH",
+      "to": "coingecko#etica"
+    },
+    "0x232fb2B87CAce92B2438054A7eB79B4081E3E11a": {
+      "decimals": "18",
+      "symbol": "WEGAZ",
+      "to": "coingecko#etica"
+    }
+  },
   "bob": {
     "0xA45d4121b3D47719FF57a947A9d961539Ba33204": {
       "decimals": "8",
