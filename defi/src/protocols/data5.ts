@@ -11003,6 +11003,9 @@ const data5: Protocol[] = [
     audit_links: ["https://docs.afiprotocol.xyz/risks/audits-and-bug-bounty"],
     github: ["Artificial-Financial-Intelligence"],
     listedAt: 1771028551,
+    dimensions: {
+      fees: "afiprotocol"
+    },
   },
   {
     id: "7392",
@@ -15650,6 +15653,9 @@ const data5: Protocol[] = [
     chains: ["Ethereum"],
     module: "dummy.js",
     twitter: "layer3",
+    dimensions: {
+      fees: "layer3",
+    },
   },
   {
     id: "7612",

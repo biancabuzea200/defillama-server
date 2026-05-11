@@ -5702,6 +5702,10 @@ const data: Protocol[] = [
     twitter: "volmexfinance",
     audit_links: ["https://docs.volmex.finance/smart-contracts/audits"],
     github: ["volmexfinance"],
+    dimensions: {
+      fees: "volmex",
+      dexs: "volmex"
+    },
   },
   {
     id: "365",

@@ -7794,28 +7794,19 @@ const data4: Protocol[] = [
     module: "usdd-io/index.js",
     twitter: "usddio",
     oraclesBreakdown: [
-      {
-        name: "WINkLink",
-        type: "Primary",
-        proof: [
-          "https://juststable.tronscan.org/?lang=en-US#/home",
-          "https://x.com/justinsuntron/status/1851885789116039226",
-        ],
+      {name: "WINkLink",type: "Primary",proof: ["https://juststable.tronscan.org/?lang=en-US#/home","https://x.com/justinsuntron/status/1851885789116039226",],
         endDate: "2025-05-15",
       },
-      {
-        name: "Chainlink",
-        type: "Primary",
-        proof: [
-          "https://docs.usdd.io/developers/oraclehome",
-          "https://x.com/justinsuntron/status/1851885789116039226",
-          "https://docs.usdd.io/developers/oracle",
-        ],
-        startDate: "2025-05-15",
-      },
+      { name: "Chainlink",type: "Primary",
+      proof: ["https://docs.usdd.io/developers/oraclehome", "https://x.com/justinsuntron/status/1851885789116039226", "https://docs.usdd.io/developers/oracle"],
+      startDate: "2025-05-15",
+    },
     ],
     listedAt: 1741877201,
     stablecoins: ["usdd"],
+    dimensions: {
+      fees: "usdd"
+    }
   },
   {
     id: "5899",
@@ -25732,7 +25723,8 @@ const data4: Protocol[] = [
     module: "dummy.js",
     twitter: "Collector_Crypt",
     dimensions: {
-      fees: "collector-crypt"
+      fees: "collector-crypt",
+      dexs: "collector-crypt"
     }
   },
   {
@@ -25938,7 +25930,8 @@ const data4: Protocol[] = [
     module: "dummy.js",
     twitter: "phygitals",
     dimensions: {
-      fees: "phygitals"
+      fees: "phygitals",
+      dexs: "phygitals"
     }
   },
   {
@@ -27179,7 +27172,8 @@ const data4: Protocol[] = [
     module: "dummy.js",
     twitter: "TCG_Emporium",
     dimensions: {
-      fees: "emporium"
+      fees: "emporium",
+      dexs: "emporium"
     }
   },
   {
@@ -27662,7 +27656,8 @@ const data4: Protocol[] = [
     module: "dummy.js",
     twitter: "Courtyard_io",
     dimensions: {
-      fees: "courtyard"
+      fees: "courtyard",
+      dexs: "courtyard"
     }
   },
   {

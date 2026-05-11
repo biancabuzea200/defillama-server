@@ -62867,7 +62867,10 @@ const data3_3: Protocol[] = [
     twitter: "b14g_network",
     audit_links: ["https://docs.b14g.xyz/audits"],
     github: ["b14glabs"],
-    listedAt: 1734725715
+    listedAt: 1734725715,
+    dimensions: {
+      fees: "b14g"
+    }
   },
   {
     id: "5542",
