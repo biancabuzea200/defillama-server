@@ -11128,7 +11128,10 @@ const data5: Protocol[] = [
     twitter: "ENI__Official",
     listedAt: 1771517342,
     dimensions: {
-      dexs: "egas-swap",
+      dexs: {
+        adapter: "egas-swap",
+        genuineSpikes: [["2026-05-09", "-"]]
+      },
     },
   },
   {
