@@ -6582,6 +6582,11 @@
       "to": "coingecko#bitcoin",
       "decimals": 9,
       "symbol": "jBTC"
+    },
+    "EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f": {
+      "to": "coingecko#ethena-usde",
+      "decimals": 6,
+      "symbol": " USDe"
     }
   },
   "mantle": {
