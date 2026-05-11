@@ -2296,7 +2296,7 @@ const data6: Protocol[] = [
     chains: ["Mezo"],
     module: "mezo-vaults/index.js",
     twitter: "MezoNetwork",
-    //parentProtocol: "parent#mezo-swap", // pending to add parent protocol
+    parentProtocol: "parent#mezo-swap", // pending to add parent protocol , added since was done
     listedAt: 1778194507
   },
   {

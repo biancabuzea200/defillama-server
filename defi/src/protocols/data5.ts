@@ -8428,6 +8428,7 @@ const data5: Protocol[] = [
     chains: ["Mezo"],
     module: "mezo-borrow/index.js",
     twitter: "MezoNetwork",
+    parentProtocol: "parent#mezo-swap",
     listedAt: 1768928801
   },
   {
