@@ -14200,6 +14200,11 @@
       "to": "coingecko#movement",
       "decimals": 18,
       "symbol": "MOVE"
+    },
+    "0xba11833544a2f99eec743f41a228ca6ffa7f13c3b6b04681d5a79a8b75ff225e": {
+      "to": "coingecko#usdcx-movement",
+      "decimals": 6,
+      "symbol": "USDCx"
     }
   },
   "mtt_network": {
