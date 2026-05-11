@@ -2305,7 +2305,7 @@ const data6: Protocol[] = [
     address: null,
     symbol: "-",
     url: " ", // pending to add url https://rise.rich/
-    description: "RISE is the first floor-backed, permissionless token launchpad on Solana, enabling creators to launch tokens instantly while embedding capped downside risk mechanics and in-house lending",
+    description: "RISE is the first floor-backed, permissionless token launchpad on Solana, enabling creators to launch tokens instantly while embedding capped downside risk mechanics and in-house lending from day one",
     chain: "Solana",
     logo: `${baseIconsUrl}/rise.rich.jpg`,
     audits: "0",
