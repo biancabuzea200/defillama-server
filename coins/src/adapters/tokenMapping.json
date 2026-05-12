@@ -2665,6 +2665,11 @@
       "decimals": "8",
       "symbol": "cWBTCv3",
       "to": "asset#ethereum:0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+    },
+    "0x19ebb35279a16207ec4ba82799cc64715065f7f6": {
+      "decimals": "6",
+      "symbol": "PRIME",
+      "to": "coingecko#hastra-prime"
     }
   },
   "fantom": {
