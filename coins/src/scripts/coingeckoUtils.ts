@@ -72,10 +72,11 @@ export function isMetadataBlacklisted(chain: string, tokenAddress: string): bool
 let solanaTokens: Promise<any>;
 let _solanaTokens: Promise<any>;
 export async function cacheSolanaTokens() {
-  if (_solanaTokens === undefined) {
+  if (true) {
     _solanaTokens = fetch(
       "https://cdn.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json"
     ).catch((e) => {
+      _solanaTokens = undefined;
       console.error("Failed to fetch Solana token list:", e);
       throw new Error(`Failed to fetch Solana token list: ${e.message}`);
     });
