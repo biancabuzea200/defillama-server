@@ -5676,7 +5676,7 @@ export const chainCoingeckoIds = {
     url: "https://qu.ai",
     chainId: 9,
     dimensions: {
-      // fees: "quai-network",  // only tx fees should be treated as chain fees
+      fees: "quai-network",
     },
   },
   "StandX": {
