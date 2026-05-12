@@ -21342,15 +21342,15 @@ const data4: Protocol[] = [
   },
   {
     id: "6482",
-    name: "Liminal",
+    name: "Liminal Basis",
     address: null,
     symbol: "-",
     url: "https://liminal.money/join/DEFILLAMA",
     referralUrl: "https://liminal.money/join/DEFILLAMA",
     description:
-      "Liminal is a DeFi protocol on Hyperliquid that offers stable, delta-neutral yields from funding rates, allowing users to earn returns without market exposure",
+      "Liminal is designed to capture yield sources offered by Hyperliquid and distribute them through fully automated strategies across all ecosystems",
     chain: "Hyperliquid L1",
-    logo: `${baseIconsUrl}/liminal.jpg`,
+    logo: `${baseIconsUrl}/liminal-basis.jpg`,
     audits: "2",
     gecko_id: null,
     cmcId: null,
@@ -21359,6 +21359,7 @@ const data4: Protocol[] = [
     audit_links: ["https://docs.liminal.money/more/audits"],
     module: "liminal-money/index.js",
     twitter: "liminalmoney",
+    parentProtocol: "parent#liminal",
     listedAt: 1753556072,
   },
   {

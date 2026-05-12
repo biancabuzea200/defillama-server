@@ -9656,6 +9656,17 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "MezoNetwork",
   },
+  { 
+    id: "parent#liminal",
+    name: "Liminal",
+    url: "https://liminal.money/join/DEFILLAMA",
+    description: "Liminal is designed to capture yield sources offered by Hyperliquid and distribute them through fully automated strategies across all ecosystems.",
+    logo: `${baseIconsUrl}/liminal.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "liminalmoney",
+  },
 ];
 
 export default parentProtocols;

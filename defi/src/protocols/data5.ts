@@ -1412,6 +1412,7 @@ const data5: Protocol[] = [
     chains: ["Hyperliquid L1"],
     module: "dummy.js",
     twitter: "liminalmoney",
+    parentProtocol: "parent#liminal",
     dimensions: {
       fees: "liminal-perps",
       derivatives: "liminal-perps",
