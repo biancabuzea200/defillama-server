@@ -5998,6 +5998,15 @@ export const chainCoingeckoIds = {
       fees: "rise",
     },
   },
+  "Etica": {
+    geckoId: null,
+    symbol: "EGAZ",
+    cmcId: null,
+    twitter: "eticaprotocol",
+    url: "https://www.eticaprotocol.org/",
+    categories: ["EVM"],
+    chainId: 61803,
+  },
 } as unknown as ChainCoinGekcoIds;
 
 // We are creating the list here because, later in the code, we include historical chain labels with the same chain metadata, so, chainCoingeckoIds will have duplicate keys
