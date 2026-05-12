@@ -24867,6 +24867,10 @@ const data2: Protocol[] = [
     twitter: "rarifoundation",
     governanceID: ["snapshot:rarible.eth"],
     github: ["rarible"],
+    dimensions: {
+      fees: "rarible",
+      dexs: "rarible",
+    },
   },
   {
     id: "2505",
