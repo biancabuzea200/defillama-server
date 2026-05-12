@@ -45129,6 +45129,9 @@ const data3_2: Protocol[] = [
       "https://github.com/blend-capital/blend-contracts/blob/main/audits/blend_capital_final.pdf",
     ],
     listedAt: 1717598971,
+    dimensions: {
+      fees: "blend-pools",
+    }
   },
 ]
 const data3_3: Protocol[] = [

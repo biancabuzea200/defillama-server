@@ -14072,6 +14072,9 @@ const data5: Protocol[] = [
       "https://1739587685-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FiSGHwFKn3P0OZY7c7ITh%2Fuploads%2FCHW9zrkYycSoPABMSaSk%2FSalus_Bitway_Token_Audit_Report.pdf?alt=media&token=11c93464-625d-4282-9cd0-478715ad7108"
     ],
     listedAt: 1773325947,
+    dimensions: {
+      fees: "bitway-earn",
+    }
   },
   {
     id: "7540",

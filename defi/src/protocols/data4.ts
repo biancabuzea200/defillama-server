@@ -12891,6 +12891,9 @@ const data4: Protocol[] = [
     twitter: null,
     parentProtocol: "parent#blend",
     listedAt: 1746030811,
+    dimensions: {
+      fees: "blend-backstop-v2",
+    }
   },
   {
     id: "6122",
@@ -12921,6 +12924,9 @@ const data4: Protocol[] = [
         ],
       },
     ],
+    dimensions: {
+      fees: "blend-pools-v2",
+    }
   },
   {
     id: "6123",
