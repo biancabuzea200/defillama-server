@@ -62274,7 +62274,10 @@ const data3_3: Protocol[] = [
     module: "alphafi-stsui/index.js",
     twitter: "stSUI_AlphaFi",
     parentProtocol: "parent#alphafi",
-    listedAt: 1734441386
+    listedAt: 1734441386,
+    dimensions: {
+      fees: "alphafi"
+    }
   },
   {
     id: "5512",

@@ -912,7 +912,7 @@ const data6: Protocol[] = [
     cmcId: null,
     category: "Lending",
     chains: ["Sonic"],
-    module: "dummy.js",
+    module: "flying-tulip-lend/index.js",
     audit_links: ["https://docs.flyingtulip.com/risks/"],
     twitter: "flyingtulip_",
     listedAt: 1769459609,
@@ -1105,7 +1105,7 @@ const data6: Protocol[] = [
     cmcId: null,
     category: "Yield Aggregator",
     chains: ["Ethereum", "Sonic"],
-    module: "dummy.js",
+    module: "flying-tulip-ftusd/index.js",
     audit_links: ["https://docs.flyingtulip.com/risks/"],
     twitter: "flyingtulip_",
     listedAt: 1777298400,
@@ -2630,6 +2630,31 @@ const data6: Protocol[] = [
     dimensions: {
       fees: "allox",
       aggregators: "allox",
+    },
+  },
+  {
+    id: "7834",
+    name: "Shiny",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://shiny.com/
+    description: "Shiny is a physical trading card game on Base and Abstract",
+    chain: "Base",
+    logo: `${baseIconsUrl}/shiny.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "Physical TCG",
+    chains: ["Abstract","Base"],
+    module: "dummy.js",
+    twitter: "ShinyLabs",
+    audit_links: [
+      "https://github.com/shieldify-security/audits-portfolio/blob/main/reports/Shiny-PaymentRouter-Security-Review.pdf",
+      "https://github.com/shieldify-security/audits-portfolio/blob/main/reports/Shiny-Security-Review.pdf"
+    ],
+    dimensions: {
+      fees: "shiny",
+      dexs: "shiny",
     },
   },
 ];
