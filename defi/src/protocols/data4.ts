@@ -59,6 +59,9 @@ const data4: Protocol[] = [
     audit_links: ["https://docs.gondi.xyz/security-and-audits"],
     parentProtocol: "parent#gondi",
     listedAt: 1735271441,
+    dimensions: {
+      fees: "gondi-v3",
+    },
   },
   {
     id: "5562",

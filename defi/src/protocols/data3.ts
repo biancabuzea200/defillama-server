@@ -27280,6 +27280,9 @@ const data3_1: Protocol[] = [
     github: ["StackingDAO"],
     audit_links: ["https://github.com/StackingDAO/app"],
     listedAt: 1702999258,
+    dimensions: {
+      fees: "stackingdao"
+    }
   },
   {
     id: "3935",
