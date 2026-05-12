@@ -2669,7 +2669,7 @@ const data6: Protocol[] = [
     audits: "0",
     gecko_id: null,
     cmcId: null,
-    category: "Prediction Markets",
+    category: "Prediction Market",
     chains: ["Solana"],
     module: "dummy.js",
     twitter: "wormdotwtf",
