@@ -16540,6 +16540,11 @@
       "decimals": "6",
       "symbol": "FXRP",
       "to": "coingecko#flare-bridged-xrp-flare"
+    },
+    "0x9648dB94F1e6B19e7D755585542981F97dc806c6": {
+      "decimals": 18,
+      "symbol": "savUSD",
+      "to": "coingecko#avant-staked-usd"
     }
   },
   "stable": {
