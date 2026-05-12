@@ -2551,5 +2551,22 @@ const data6: Protocol[] = [
     audit_links: ["https://islandstake.xyz/audit"],
     listedAt: 1778550287
   },
+  {
+    id: "7830",
+    name: "MemeCore",
+    address: "bsc:0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+    symbol: "M",
+    url: "https://memecore.com/", 
+    description: "MemeCore is an EVM-compatible Layer 1 for memecoin ecosystems, using Proof-of-Meme incentives and Meme Vaults to reward creators, traders, validators, and communities for onchain and cultural activity",
+    chain: "Binance",
+    logo: `${baseIconsUrl}/memecore.jpg`,
+    audits: "0",
+    gecko_id: "memecore",
+    cmcId: "35491",
+    category: "Foundation",
+    chains: ["Binance"],
+    module: "dummy.js",
+    twitter: "MemeCore_ORG",
+  },
 ];
 export default data6;
