@@ -2660,6 +2660,11 @@
       "decimals": "0",
       "symbol": "STBX",
       "to": "asset#arbitrum:0x998a0beaf37ca4ba61b5cfac59fdee0da2211a46"
+    },
+    "0xe85Dc543813B8c2CFEaAc371517b925a166a9293": {
+      "decimals": "8",
+      "symbol": "cWBTCv3",
+      "to": "asset#ethereum:0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
     }
   },
   "fantom": {
@@ -4366,6 +4371,11 @@
       "decimals": "18",
       "symbol": "bERNX",
       "to": "asset#ethereum:0x3f95aa88ddbb7d9d484aa3d482bf0a80009c52c9"
+    },
+    "0x6f7D514bbD4aFf3BcD1140B7344b32f063dEe486": {
+      "decimals": "18",
+      "symbol": "cWETHv3",
+      "to": "asset#arbitrum:0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     }
   },
   "tezos": {
