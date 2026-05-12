@@ -2514,5 +2514,42 @@ const data6: Protocol[] = [
     twitter: "NationWarsBase",
     listedAt: 1778549379,
   },
+  {
+    id: "7828",
+    name: "Mezo Earn",
+    address: null,
+    symbol: "-",
+    url: "https://mezo.org/earn/lock",
+    description: "Mezo Earn is the economic engine powering the Mezo network. It enables bitcoin holders to earn yield on their BTC while participating in governance decisions that shape how the network allocates resources and rewards",
+    chain: "Mezo",
+    logo: `${baseIconsUrl}/mezo-earn.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Governance Incentives",
+    chains: ["Mezo"],
+    module: "mezo-earn/index.js",
+    twitter: "MezoNetwork",
+    listedAt: 1778549638
+  },
+  {
+    id: "7829",
+    name: "Island Stake",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://islandstake.xyz
+    description: "Non-Custodial Liquid Staking on TON",
+    chain: "TON",
+    logo: `${baseIconsUrl}/island-stake.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "Liquid Staking",
+    chains: ["TON"],
+    module: "islandstake/index.js",
+    twitter: "DurovsIsland",
+    audit_links: ["https://islandstake.xyz/audit"],
+    listedAt: 1778550287
+  },
 ];
 export default data6;
