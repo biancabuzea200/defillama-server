@@ -3176,6 +3176,14 @@ const data5: Protocol[] = [
     module: "townsquare/index.js",
     twitter: "TownSquarexyz",
     listedAt: 1764002871,
+    warningBanners: [
+      {
+        message:
+          "This protocol includes/provides unproductive positions that may contribute to inflated metrics. Be safe.",
+        level: "alert",
+        until: "2026-7-12",
+      },
+    ],
   },
   {
     id: "7029",
