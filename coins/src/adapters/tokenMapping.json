@@ -16877,6 +16877,16 @@
       "to": "coingecko#usd-coin",
       "decimals": 6,
       "symbol": "USDC"
+    },
+    "0x52c48d4213107b20bc583832b0d951fb9ca8f0b0": {
+      "to": "coingecko#pharos-network",
+      "decimals": 18,
+      "symbol": "WPROS"
+    },
+    "0x0000000000000000000000000000000000000000": {
+      "to": "coingecko#pharos-network",
+      "decimals": 18,
+      "symbol": "PROS"
     }
   },
   "open": {
