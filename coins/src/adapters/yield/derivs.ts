@@ -957,6 +957,22 @@ const configs: { [adapter: string]: Config } = {
     chain: "citrea",
     underlying: "0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
     address: "0x8D82c4E3c936C7B5724A382a9c5a4E6Eb7aB6d5D",
+  },
+  "HASTRA-wYLDS": {
+    // totalAssets() on this vault returns a broken value, so price via
+    // totalAssets/totalSupply (the standard 4626 path) is wrong. Use
+    // convertToAssets as the share->asset rate instead.
+    rate: async ({ api }) => {
+      const rate = await api.call({
+        abi: "function convertToAssets(uint256) external view returns (uint256)",
+        target: "0x6aD038cA6C04e885630851278ca0a856Ad9a66Cc",
+        params: 1e6,
+      });
+      return rate / 1e6;
+    },
+    chain: "ethereum",
+    underlying: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", // USDC
+    address: "0x6aD038cA6C04e885630851278ca0a856Ad9a66Cc",
   }
 };
 
