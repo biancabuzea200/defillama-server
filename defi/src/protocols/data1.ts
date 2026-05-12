@@ -16532,7 +16532,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     category: "Yield",
     chains: ["Ethereum"],
     module: "saffron/index.js",
-    twitter: "saffronfinance_",
+    twitter: "saffron",
     audit_links: ["https://github.com/saffron-finance/saffron/tree/master/audits/saffron-staking-v2"],
     listedAt: 1637370827,
     github: ["saffron-finance"],
