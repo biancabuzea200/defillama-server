@@ -2313,7 +2313,7 @@ const data6: Protocol[] = [
     cmcId: null,
     category: "Launchpad",
     chains: ["Solana"],
-    module: "dummy.js",
+    module: "rise-protocol/index.js",
     twitter: "risedotrich",
     github: ["riserich"],
     listedAt: 1778254222,
@@ -2865,7 +2865,7 @@ const data6: Protocol[] = [
     name: "Fidelity Digital Interest Token",
     address: "0x48ab4e39ac59f4e88974804b04a991b3a402717f",
     symbol: "FDIT",
-    url: "https://www.fidelity.com/etfs/crypto-funds",
+    url: "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html",
     description:
       "Fidelity Treasury Digital Fund OnChain Class is a tokenized Treasury money market fund share class that records fund ownership onchain while giving investors exposure to short-term U.S. government money market assets",
     chain: "Ethereum",
@@ -2879,6 +2879,27 @@ const data6: Protocol[] = [
     twitter: "FidelityforWMs",
     dimensions: {
       fees: "fidelity-digital-interest",
+    },
+  },
+  {
+    id: "7846",
+    name: "Fidelity Crypto Fund",
+    address: null,
+    symbol: "-",
+    url: "https://www.fidelity.com/etfs/crypto-funds",
+    description:
+      "Fidelity Crypto Funds are spot crypto ETPs that give brokerage and IRA accounts indirect exposure to BTC, ETH, or SOL, with Fidelity custodying the underlying assets and FSOL also passing staking rewards through NAV",
+    chain: "Off Chain",
+    logo: `${baseIconsUrl}/fidelity-crypto-fund.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "CeDeFi",
+    chains: ["Off Chain"],
+    module: "dummy.js",
+    twitter: "FidelityforWMs",
+    dimensions: {
+      fees: "fidelity-crypto-fund",
     },
   },
 ];

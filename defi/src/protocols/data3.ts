@@ -57324,7 +57324,10 @@ const data3_3: Protocol[] = [
       "https://github.com/plumenetwork/contracts/blob/main/staking/audit/slowmist.pdf",
       "https://github.com/plumenetwork/contracts/blob/main/staking/audit/slowmist2.pdf"
     ],
-    listedAt: 1729962607
+    listedAt: 1729962607,
+    dimensions: {
+      fees: "nest-credit",
+    },
   },
   {
     id: "5285",
