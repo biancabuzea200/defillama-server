@@ -13494,6 +13494,26 @@
       "to": "asset#ethereum:0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
       "decimals": 6,
       "symbol": "M"
+    },
+    "0x927C469E58Daab257Ea60B2D8c37bEDD2a203A54": {
+      "to": "coingecko#weth",
+      "decimals": 18,
+      "symbol": "WETH"
+    },
+    "0x2D91e1bF9Bfb7a256ef7937eAC62C27531f7564d": {
+      "to": "coingecko#wrapped-bitcoin",
+      "decimals": 8,
+      "symbol": "WBTC"
+    },
+    "0x791413d6c80cd993c65AfF65Cb4372DBC30deF03": {
+      "to": "coingecko#usd-coin",
+      "decimals": 6,
+      "symbol": "USDC"
+    },
+    "0x1385B8f55A84f2BdA13EeD4099d29Eae03d553b2": {
+      "to": "coingecko#fluent-network",
+      "decimals": 18,
+      "symbol": "BLEND"
     }
   },
   "swan": {

@@ -973,7 +973,25 @@ const configs: { [adapter: string]: Config } = {
     chain: "ethereum",
     underlying: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", // USDC
     address: "0x6aD038cA6C04e885630851278ca0a856Ad9a66Cc",
-  }
+  },
+  sUSDnr: {
+    rate: async ({ api }) => {
+      const [assets, supply] = await Promise.all([
+        api.call({
+          abi: "function getTotalAssets() view returns (uint256)",
+          target: "0x50ae83dbdc44208eda1ef722f87bab0ffb195eea",
+        }),
+        api.call({
+          abi: "erc20:totalSupply",
+          target: "0xfa9b3b45587f9fcde14759121c3868c2733dcbf4",
+        }),
+      ]);
+      return assets / supply;
+    },
+    chain: "fluent",
+    underlying: "0xD48e565561416dE59DA1050ED70b8d75e8eF28f9",
+    address: "0xfa9b3b45587f9fcde14759121c3868c2733dcbf4",
+  },
 };
 
 export async function derivs(timestamp: number) {
