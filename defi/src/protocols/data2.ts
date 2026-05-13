@@ -5641,6 +5641,9 @@ const data2: Protocol[] = [
     ],
     parentProtocol: "parent#clearpool",
     listedAt: 1649674184,
+    dimensions: {
+      fees: "clearpool",
+    },
   },
   {
     id: "1636",

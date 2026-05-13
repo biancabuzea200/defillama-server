@@ -48489,6 +48489,9 @@ const data3_3: Protocol[] = [
     twitter: "ClearpoolFin",
     parentProtocol: "parent#clearpool",
     listedAt: 1720786477,
+    dimensions: {
+      fees: "clearpool-rwa",
+    },
   },
   {
     id: "4880",

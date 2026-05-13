@@ -2732,6 +2732,9 @@ const data6: Protocol[] = [
     module: "apriori/index.js",
     twitter: "aPriori",
     listedAt: 1778651369,
+    dimensions: {
+      fees: "apriori",
+    },
   },
   {
     id: "7839",
@@ -2821,7 +2824,7 @@ const data6: Protocol[] = [
     symbol: "-",
     url: " ", // pending to add url https://fluxflow.fi
     description:
-      "FluxFlow V3, a Uniswap V3 fork deployed on Fluent (chainId 25363)..",
+      "FluxFlow V3, a Uniswap V3 fork deployed on Fluent (chainId 25363).",
     chain: "Fluent",
     logo: `${baseIconsUrl}/fluxflow-v3.jpg`,
     audits: "0",
@@ -2833,6 +2836,50 @@ const data6: Protocol[] = [
     forkedFromIds: ["2198"],
     twitter: "FluxFlowFi",
     listedAt: 1778653432,
+  },
+  {
+    id: "7844",
+    name: "Vena Finance",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://vena.finance
+    description:
+      "Vena is the credit layer where reputation directly affects the value of capital. Vena is launching as the native money market of Fluent",
+    chain: "Fluent",
+    logo: `${baseIconsUrl}/vena-finance.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Lending",
+    oraclesBreakdown: [{ name: "Pyth", type: "Primary", proof: ["https://github.com/DefiLlama/dimension-adapters/pull/6939"] }],
+    chains: ["Fluent"],
+    module: "dummy.js",
+    forkedFromIds: ["1599"],
+    twitter: "venafinance",
+    dimensions: {
+      fees: "vena-finance",
+    },
+  },
+  {
+    id: "7845",
+    name: "Fidelity Digital Interest Token",
+    address: "0x48ab4e39ac59f4e88974804b04a991b3a402717f",
+    symbol: "FDIT",
+    url: "https://www.fidelity.com/etfs/crypto-funds",
+    description:
+      "Fidelity Treasury Digital Fund OnChain Class is a tokenized Treasury money market fund share class that records fund ownership onchain while giving investors exposure to short-term U.S. government money market assets",
+    chain: "Ethereum",
+    logo: `${baseIconsUrl}/fidelity-digital-interest-token.jpg`,
+    audits: "0",
+    gecko_id: "fidelity-digital-interest-token",
+    cmcId: "38340",
+    tags: ["Money Market Funds"],
+    chains: ["Ethereum"],
+    module: "dummy.js",
+    twitter: "FidelityforWMs",
+    dimensions: {
+      fees: "fidelity-digital-interest",
+    },
   },
 ];
 export default data6;
