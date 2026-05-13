@@ -2063,7 +2063,7 @@ const parentProtocols: IParentProtocol[] = [
     url: "https://www.polarise.org/",
     description:
       "Polarise Protocol aims to be the innovative, multi-chain, multi-form crypto asset financial infrastructure platform",
-    logo: `${baseIconsUrl}/pawnfi.png`,
+    logo: `${baseIconsUrl}/polarise.jpg`,
     gecko_id: null,
     cmcId: null,
     chains: [],
