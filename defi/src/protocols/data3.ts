@@ -1810,8 +1810,8 @@ const data3_0: Protocol[] = [
   {
     id: "2783",
     name: "Scrub Invest",
-    address: null,
-    symbol: "-",
+    address: "kava:0x990e157fC8a492c28F5B50022F000183131b9026",
+    symbol: "LION",
     url: "https://invest.scrub.money/",
     description:
       "Scrub Invest allows investors to leverage the power of the Scrub Invest Smart Contracts in order to earn passive income from their crypto assets. Powered by Scrub Money and currently available on Kava EVM Blockchain, with many more to come. Join Scrub Invest today and experience a whole new, effortless way of investing!",
