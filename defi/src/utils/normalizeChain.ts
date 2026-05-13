@@ -5725,6 +5725,9 @@ export const chainCoingeckoIds = {
     twitter: "citrea_xyz",
     url: "https://citrea.xyz/",
     chainId: 4114,
+    dimensions: {
+      fees: "citrea",
+    },
   },
   "Zcash": {
     geckoId: "zcash",
