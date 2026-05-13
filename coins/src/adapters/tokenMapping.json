@@ -16990,10 +16990,15 @@
       "decimals": 6,
       "symbol": "pathUSD"
     },
-    "0x9568F2AFd09D845D48Cf999244e18B1a9467eAdB": {
-      "decimals": "6",
+    "0x20C000000000000000000000c412Ec89D0c08be5": {
+      "decimals": 6,
       "symbol": "cbBTC",
       "to": "coingecko#coinbase-wrapped-btc"
+    },
+    "0x20c0000000000000000000008191667423F70E67": {
+      "decimals": 6,
+      "symbol": "syrupUSDC",
+      "to": "coingecko#syrupusdc"
     },
     "0x20c000000000000000000000b9537d11c60e8b50": {
       "to": "coingecko#usd-coin",
