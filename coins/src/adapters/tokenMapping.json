@@ -16990,6 +16990,11 @@
       "decimals": 6,
       "symbol": "pathUSD"
     },
+    "0x9568F2AFd09D845D48Cf999244e18B1a9467eAdB": {
+      "decimals": "6",
+      "symbol": "cbBTC",
+      "to": "coingecko#coinbase-wrapped-btc"
+    },
     "0x20c000000000000000000000b9537d11c60e8b50": {
       "to": "coingecko#usd-coin",
       "decimals": 6,
