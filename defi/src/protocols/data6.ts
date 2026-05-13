@@ -2766,7 +2766,7 @@ const data6: Protocol[] = [
     cmcId: null,
     category: "Gamified Mining",
     chains: ["MegaETH"],
-    module: "nara/index.js",
+    module: "offshore-protocol/index.js",
     twitter: "OffshoreOnMega",
     github: ["NARAProtocol"],
     listedAt: 1778651677,
