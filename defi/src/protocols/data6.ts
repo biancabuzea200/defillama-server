@@ -694,6 +694,7 @@ const data6: Protocol[] = [
     twitter: "yieldarche",
     audit_links: [
       "https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche-security-review-2026-05-03.pdf",
+      "https://github.com/yieldarche/arche-audits/blob/main/reports/sherlock-arche-money-collaborative-audit-2026-05-11.pdf",
     ],
     listedAt: 1776810661,
   },
