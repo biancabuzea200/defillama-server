@@ -2227,7 +2227,7 @@ const data6: Protocol[] = [
     address: null,
     symbol: "-",
     url: "https://app.xeno.money/",
-    description: "Xeno Money's sISKe vault is a Base ERC-4626 yield vault where users deposit Monerium's ISKe stablecoin and receive sISKe, with yield passed through from the underlying reserves",
+    description: "Xeno Money's sISKe vault is a Base ERC-4626 yield vault where users deposit Monerium's ISKe stablecoin and receive sISKe, a yield-bearing receipt token whose exchange rate appreciates over time",
     chain: "Base",
     logo: `${baseIconsUrl}/xeno-money.jpg`,
     audits: "0",
