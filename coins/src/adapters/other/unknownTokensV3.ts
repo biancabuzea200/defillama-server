@@ -1,8 +1,6 @@
 import { getApi } from "../utils/sdk";
 import getWrites from "../utils/getWrites";
-
-import * as sdk from '@defillama/sdk'
-const { runInPromisePool } = sdk.util;
+import { runInPromisePool } from "@defillama/sdk/build/generalUtil";
 const projectName = "unknownTokensV3";
 
 const slot0Abi =

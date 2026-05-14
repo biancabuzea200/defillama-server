@@ -1,4 +1,24 @@
 {
-  "token": "address:token",
-  "totalAssets": "uint256:totalAssets"
+  "token": {
+    "inputs": [],
+    "name": "token",
+    "outputs": [
+      {
+        "internalType": "contract ERC20Upgradeable",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  "totalAssets": {
+    "inputs": [],
+    "name": "totalAssets",
+    "outputs": [
+      { "internalType": "uint256", "name": "assets", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
 }

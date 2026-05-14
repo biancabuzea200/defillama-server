@@ -1,9 +1,3 @@
-
-import providers from "@defillama/sdk/build/providers.json";
+import {providers} from "@defillama/sdk/build/general"
 
 export {providers}
-
-export const chainIdMap: { [id: number]: string } = {};
-Object.keys(providers).map((c: string) => {
-  chainIdMap[(providers[c as keyof typeof providers] as any).chainId] = c;
-});

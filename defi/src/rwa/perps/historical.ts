@@ -1,9 +1,7 @@
 import { initPG, storeHistoricalPG, storeMetadataPG, storeFundingHistoryPG } from "./db";
 import { getContractId, getContractMetadata, resolveContractKey } from "./constants";
 import { sendMessage } from "../../utils/discord";
-
-import * as sdk from '@defillama/sdk'
-const { runInPromisePool } = sdk.util;
+import { runInPromisePool } from "@defillama/sdk/build/generalUtil";
 
 export interface PerpsDataEntry {
     contract: string;

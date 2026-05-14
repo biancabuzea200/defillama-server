@@ -90,10 +90,42 @@ async function contractCalls(
 }
 
 const contractAbi = {
-  "reserve0": "uint256:reserve0",
-  "reserve1": "uint256:reserve1",
-  "totalSupply": "uint256:totalSupply"
-}  ;
+  reserve0: {
+    constant: true,
+    inputs: [],
+    name: "reserve0",
+    outputs: [{ name: "", type: "uint256" }],
+    payable: false,
+    stateMutability: "view",
+    type: "function",
+  },
+  reserve1: {
+    constant: true,
+    inputs: [],
+    name: "reserve1",
+    outputs: [{ name: "", type: "uint256" }],
+    payable: false,
+    stateMutability: "view",
+    type: "function",
+  },
+  totalSupply: {
+    constant: true,
+    inputs: [],
+    name: "totalSupply",
+    outputs: [{ name: "", type: "uint256" }],
+    payable: false,
+    stateMutability: "view",
+    type: "function",
+  },
+};
 const contractAbiBeefy = {
-  "getPricePerFullShare": "uint256:getPricePerFullShare"
+  getPricePerFullShare: {
+    constant: true,
+    inputs: [],
+    name: "getPricePerFullShare",
+    outputs: [{ name: "", type: "uint256" }],
+    payable: false,
+    stateMutability: "view",
+    type: "function",
+  },
 };

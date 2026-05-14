@@ -1,8 +1,11 @@
 import { fetch } from "../utils";
 import { Token } from "./index";
+import providers from "@defillama/sdk/build/providers.json";
 
-import { chainIdMap } from "../ethers";
-export { chainIdMap } from "../ethers";
+export const chainIdMap: { [id: number]: string } = {};
+Object.keys(providers).map((c: string) => {
+  chainIdMap[providers[c as keyof typeof providers].chainId] = c;
+});
 
 export default async function bridge(): Promise<Token[]> {
   const celerTokens = (

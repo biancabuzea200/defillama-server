@@ -98,10 +98,45 @@ const getTotalSupplyOfAllL2LpToken = async (
     , chain: string
 ) => {
     let abi = {
-  "totalSupply": "uint256:totalSupply",
-  "decimals": "uint8:decimals",
-  "symbol": "string:symbol"
-}
+        "totalSupply": {
+            "inputs": [],
+            "name": "totalSupply",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        "decimals": {
+            "inputs": [],
+            "name": "decimals",
+            "outputs": [
+                {
+                    "internalType": "uint8",
+                    "name": "",
+                    "type": "uint8"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }, "symbol": {
+            "inputs": [],
+            "name": "symbol",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    }
 
     let totalSupplyForAllAddress = tokenDetails
 
@@ -184,9 +219,45 @@ const getTokenBalanceOfAllL2Swap = async (
     chain: string
 ) => {
     let abi = {
-  "getToken": "function getToken(uint8 gettoken) view returns (address)",
-  "getTokenBalance": "function getTokenBalance(uint8 gettoken) view returns (uint256)"
-}
+        "getToken": {
+            "inputs": [
+                {
+                    "internalType": "uint8",
+                    "name": "gettoken",
+                    "type": "uint8"
+                }
+            ],
+            "name": "getToken",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        "getTokenBalance": {
+            "inputs": [
+                {
+                    "internalType": "uint8",
+                    "name": "gettoken",
+                    "type": "uint8"
+                }
+            ],
+            "name": "getTokenBalance",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    }
 
     let balanceForAllAddress = tokenDetails
     let allAddressDetails: {

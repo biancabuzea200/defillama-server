@@ -26,8 +26,8 @@ import { fetchTokensList } from "../../src/utils/coinsApi";
 import { getClosestProtocolItem, getLatestProtocolItems, initializeTVLCacheDB } from "../../src/api2/db";
 import { hourlyRawTokensTvl } from "../../src/utils/getLastRecord";
 import { Balances } from "@defillama/sdk";
-const { runInPromisePool } = sdk.util;
-const { cachedFetch } = sdk.cache;
+import runInPromisePool from "@defillama/sdk/build/util/promisePool";
+import { cachedFetch } from "@defillama/sdk/build/util/cache";
 import { coins } from "@defillama/sdk";
 
 const searchWidth = 10800; // 3hr

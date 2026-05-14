@@ -16,13 +16,10 @@ import { excludedTvlKeys } from "../../l2/constants";
 import BigNumber from "bignumber.js";
 import { coins, } from "@defillama/sdk";
 import { getCsvData } from "./spreadsheet";
-
-import * as sdk from '@defillama/sdk'
-const { runInPromisePool } = sdk.util;
-const { cachedFetch } = sdk.cache;
+import { runInPromisePool } from "@defillama/sdk/build/generalUtil";
 import { fetchSupplies } from "../../l2/utils";
 import { getChainDisplayName, getChainIdFromDisplayName } from "../utils/normalizeChain";
-
+import { cachedFetch } from "@defillama/sdk/build/util/cache";
 import { getCurrentUnixTimestamp, getTimestampAtStartOfDay, getTimestampAtStartOfDayUTC } from "../utils/date";
 import { storeHistorical, storeMetadata } from "./historical";
 import { initPG, fetchLatestAggregateTotals } from "./db";

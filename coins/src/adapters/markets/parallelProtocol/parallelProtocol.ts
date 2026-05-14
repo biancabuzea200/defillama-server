@@ -55,4 +55,15 @@ async function getPrice(
   return output / 10 ** 8;
 }
 
-const abi = "int256:latestAnswer";
+const abi = {
+  name: "latestAnswer",
+  outputs: [
+    {
+      internalType: "int256",
+      name: "",
+      type: "int256",
+    },
+  ],
+  stateMutability: "view",
+  type: "function",
+};
