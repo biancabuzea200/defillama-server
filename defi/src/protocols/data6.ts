@@ -1397,7 +1397,11 @@ const data6: Protocol[] = [
     module: "phlox/index.js",
     twitter: "phloxsocial",
     github: ["phlox-labs"],
-    listedAt: 1777517385
+    listedAt: 1777517385,
+    dimensions: {
+      fees: "phlox",
+      dexs: "phlox",
+    }
   },
   {
     id: "7773",
@@ -2839,6 +2843,10 @@ const data6: Protocol[] = [
     forkedFromIds: ["2198"],
     twitter: "FluxFlowFi",
     listedAt: 1778653432,
+    dimensions: {
+      fees: "fluxflow-v3",
+      dexs: "fluxflow-v3",
+    },
   },
   {
     id: "7844",

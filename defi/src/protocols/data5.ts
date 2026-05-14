@@ -11610,7 +11610,10 @@ const data5: Protocol[] = [
     chains: ["Citrea"],
     module: "zentra/index.js",
     twitter: "ZentraFinance",
-    listedAt: 1771346982
+    listedAt: 1771346982,
+    dimensions: {
+      fees: "zentra",
+    },
   },
   {
     id: "7420",
@@ -14216,7 +14219,11 @@ const data5: Protocol[] = [
     chains: ["QIE"],
     module: "qie-dex/index.js",
     twitter: "dex_qi",
-    listedAt: 1773568599
+    listedAt: 1773568599,
+    dimensions: {
+      fees: "qie-dex",
+      dexs: "qie-dex",
+    }
   },
   {
     id: "7546",
