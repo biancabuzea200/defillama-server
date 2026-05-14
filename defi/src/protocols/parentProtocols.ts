@@ -9679,6 +9679,18 @@ const parentProtocols: IParentProtocol[] = [
     twitter: "durianfunlabs",
     github: ["Duriandotfun"],
   },
+  { 
+    id: "parent#bullpen",
+    name: "Bullpen",
+    url: "https://bullpen.fi/@defillama",
+    referralUrl: "https://bullpen.fi/@defillama",
+    description: "Trade Polymarket with an edge. Real-time smart money and whale tracking. Trade Polymarket, Hyperliquid, and Solana.",
+    logo: `${baseIconsUrl}/bullpen.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "BullpenFi",
+  },
 ];
 
 export default parentProtocols;

@@ -3119,5 +3119,28 @@ const data6: Protocol[] = [
     github: ["covenant-labs"],
     listedAt: 1778782624,
   },
+  {
+    id: "7857",
+    name: "Synthetix V4",
+    address: "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    symbol: "SNX",
+    url: "https://synthetix.io",
+    description:
+      "Synthetix provides liquidity for permissionless derivatives like perpetual futures, options, parimutuel markets, and more across EVM chains. Powering the next generation of permissionless protocols.",
+    chain: "Ethereum",
+    logo: `${baseIconsUrl}/synthetix-v4.png`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Derivatives",
+    chains: ["Ethereum"],
+    module: "dummy.js",
+    twitter: "synthetix",
+    parentProtocol: "parent#synthetix",
+    dimensions: {
+      derivatives: "synthetix-v4",
+      "open-interest": "synthetix-v4"
+    }
+  },
 ];
 export default data6;
