@@ -255,14 +255,14 @@ const data6: Protocol[] = [
   },
   {
     id: "7719",
-    name: "Durianfun",
+    name: "Durianfun Launchpad",
     address: null,
     symbol: "-",
     url: " ", // pending to add url https://durianfun.xyz/
     description:
       "Fair-launch meme-token launchpad on KUB. Tokens start on an exponential bonding curve, then graduate to a sealed DurianAMM liquidity pool. No presale, no team allocation, 14.3% of trading fees shared back to creators",
     chain: "Bitkub",
-    logo: `${baseIconsUrl}/durianfun.jpg`,
+    logo: `${baseIconsUrl}/durianfun-launchpad.jpg`,
     audits: "2",
     gecko_id: null,
     cmcId: null,
@@ -271,7 +271,7 @@ const data6: Protocol[] = [
     module: "durianfun/index.js",
     twitter: "duriandotfun",
     audit_links: ["https://durianandfun.gitbook.io/durianfun/overall-audits"],
-    github: ["Duriandotfun"],
+    parentProtocol: "parent#durianfun",
     listedAt: 1776659179,
   },
   {
@@ -2961,6 +2961,30 @@ const data6: Protocol[] = [
     twitter: "ScrubFinance",
     parentProtocol: "parent#scrub-money",
     listedAt: 1778710958,
+  },
+  {
+    id: "7850",
+    name: "Durianfun DEX Aggregator",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://durianfun.xyz/swap
+    description:
+      "Fair-launch meme-token launchpad on KUB. Tokens start on an exponential bonding curve, then graduate to a sealed DurianAMM liquidity pool. No presale, no team allocation, 14.3% of trading fees shared back to creators",
+    chain: "Bitkub",
+    logo: `${baseIconsUrl}/durianfun-dex-aggregator.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "DEX Aggregator",
+    chains: ["Bitkub"],
+    module: "dummy.js",
+    twitter: "durianfunlabs",
+    audit_links: ["https://durianandfun.gitbook.io/durianfun/overall-audits"],
+    parentProtocol: "parent#durianfun",
+    dimensions: {
+      aggregators: "durianfun",
+      fees: "durianfun",
+    },
   },
 ];
 export default data6;

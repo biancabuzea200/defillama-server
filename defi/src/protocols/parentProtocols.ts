@@ -9667,6 +9667,18 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "liminalmoney",
   },
+  { 
+    id: "parent#durianfun",
+    name: "Durianfun",
+    url: " ", // pending to add url https://durianfun.xyz/
+    description: "Durianfun is a decentralized exchange on Bitkub Chain. It is a fork of Uniswap V3 with a custom router and liquidity pool implementation.",
+    logo: `${baseIconsUrl}/durianfun.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "durianfunlabs",
+    github: ["Duriandotfun"],
+  },
 ];
 
 export default parentProtocols;
