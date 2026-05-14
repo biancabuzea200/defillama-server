@@ -48374,6 +48374,9 @@ const data3_3: Protocol[] = [
       }
     ],
     listedAt: 1720775830,
+    dimensions: {
+      fees: "midas-rwa",
+    },
   },
   {
     id: "4874",

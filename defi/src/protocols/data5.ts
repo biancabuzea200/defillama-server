@@ -12634,6 +12634,9 @@ const data5: Protocol[] = [
     module: "hyperlane/index.js",
     twitter: "hyperlane",
     listedAt: 1772126783,
+    dimensions: {
+      fees: "hyperlane",
+    },
   },
   {
     id: "7469",
