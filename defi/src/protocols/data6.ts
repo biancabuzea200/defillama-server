@@ -3004,7 +3004,8 @@ const data6: Protocol[] = [
     module: "dummy.js",
     twitter: "FermiTrade ",
     dimensions: {
-    derivatives: "fermi-dex",
+      derivatives: "fermi-dex",
+    },
   },
   {
     id: "7852",
