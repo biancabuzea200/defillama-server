@@ -3004,8 +3004,25 @@ const data6: Protocol[] = [
     module: "dummy.js",
     twitter: "FermiTrade ",
     dimensions: {
-      derivatives: "fermi-dex",
-    },
+    derivatives: "fermi-dex",
+  },
+  {
+    id: "7852",
+    name: "Masterdex",
+    address: "ethereum:0xf0610eb7d8ee12d59412da32625d5e273e78ff0b",
+    symbol: "MDEX",
+    url: "https://masterdex.xyz",
+    description: "MasterDEX is a multi-chain DeFi platform that lets you discover opportunities with DEX Explorer, monitor your holdings with Portfolio, and trade seamlessly with a DEX Aggregator, all in one place across Ethereum, Base, and Solana.",
+    chain: "Ethereum",
+    logo: `${baseIconsUrl}/masterdex.jpg`,
+    audits: "0",
+    gecko_id: "masterdex",
+    cmcId: null,
+    category: "Interface",
+    chains: ["Ethereum", "Base"],
+    module: "dummy.js",
+    treasury: "masterdex.js",
+    twitter: "MasterDEX_xyz",
   },
 ];
 export default data6;
