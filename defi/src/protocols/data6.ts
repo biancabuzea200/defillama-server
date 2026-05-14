@@ -3142,5 +3142,49 @@ const data6: Protocol[] = [
       "open-interest": "synthetix-v4"
     }
   },
+  {
+    id: "7858",
+    name: "ClawdStrategy",
+    address: "base:0x014b5195DF372AFF57D7182c2A0fd3b202F707c3",
+    symbol: "STRI",
+    url: " ", // pending to add url https://clawdstrategy.com
+    description:
+      "ClawdStrategy — an AI-powered Bitcoin income protocol on Base.",
+    chain: "Base",
+    logo: `${baseIconsUrl}/clawdstrategy.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "AI Agents",
+    chains: ["Base"],
+    module: "dummy.js",
+    twitter: "ClawdStrategy",
+    dimensions: {
+      fees: "clawdstrategy",
+    }
+  },
+  {
+    id: "7859",
+    name: "BendDAO Lending V2",
+    address: "0x0d02755a5700414B26FF040e1dE35D337DF56218",
+    symbol: "BEND",
+    url: "https://www.benddao.xyz",
+    description: "BendDAO is a decentralized peer-to-pool based NFT liquidity protocol.",
+    chain: "Ethereum",
+    logo: `${baseIconsUrl}/benddao-lending-v2.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "NFT Lending",
+    chains: ["Ethereum"],
+    oracles: ["NFTOracle", "ReserveOracle"],
+    module: "dummy.js",
+    twitter: "BendDAO",
+    audit_links: ["https://www.certik.com/projects/bend-dao", "https://www.verilog.solutions/audits/BendDAO"],
+    parentProtocol: "parent#benddao",
+    dimensions: {
+      fees: "benddao-lending-v2",
+    }
+  },
 ];
 export default data6;
