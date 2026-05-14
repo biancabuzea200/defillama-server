@@ -29779,7 +29779,10 @@ const data3_1: Protocol[] = [
     listedAt: 1705662884,
     dimensions: {
       fees: "sudofinance",
-      derivatives: "sudofinance"
+      derivatives: {
+        adapter: "sudofinance",
+        genuineSpikes: [["2026-05-13", "-"]]
+      }
     }
   },
   {
