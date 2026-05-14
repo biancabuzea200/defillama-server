@@ -2111,7 +2111,7 @@ const data6: Protocol[] = [
   },
   {
     id: "7807",
-    name: "Hermetica HBTC",
+    name: "Hermetica hBTC",
     address: null,
     symbol: "-",
     url: "https://hermetica.fi",
