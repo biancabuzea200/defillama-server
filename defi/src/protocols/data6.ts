@@ -2969,7 +2969,7 @@ const data6: Protocol[] = [
     symbol: "-",
     url: " ", // pending to add url https://durianfun.xyz/swap
     description:
-      "Fair-launch meme-token launchpad on KUB. Tokens start on an exponential bonding curve, then graduate to a sealed DurianAMM liquidity pool. No presale, no team allocation, 14.3% of trading fees shared back to creators",
+      "Durianfun DEX Aggregator is a DEX aggregator on Bitkub Chain.",
     chain: "Bitkub",
     logo: `${baseIconsUrl}/durianfun-dex-aggregator.jpg`,
     audits: "2",
@@ -2984,6 +2984,27 @@ const data6: Protocol[] = [
     dimensions: {
       aggregators: "durianfun",
       fees: "durianfun",
+    },
+  },
+  {
+    id: "7851",
+    name: "Fermi Trade",
+    address: null,
+    symbol: "-",
+    url: "https://app.fermi.trade/perps",
+    description:
+      "Fermi Trade is a fully onchain orderbook perps DEX on solana, offering low latency (<20ms) and deterministic FCFS execution",
+    chain: "Solana",
+    logo: `${baseIconsUrl}/fermi-trade.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Derivatives",
+    chains: ["Solana"],
+    module: "dummy.js",
+    twitter: "FermiTrade ",
+    dimensions: {
+      derivatives: "fermi-dex",
     },
   },
 ];
