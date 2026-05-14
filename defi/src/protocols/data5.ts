@@ -14535,7 +14535,7 @@ const data5: Protocol[] = [
     audits: "0",
     gecko_id: null,
     cmcId: null,
-    category: "Prediction Market",
+    tags: ["Polymarket Builder"],
     chains: ["Polygon"],
     module: "dummy.js",
     twitter: "rainbowdotme",
