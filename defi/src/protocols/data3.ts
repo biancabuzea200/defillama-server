@@ -27542,7 +27542,12 @@ const data3_1: Protocol[] = [
     parentProtocol: "parent#kelp-dao",
     listedAt: 1703173957,
     dimensions: {
-      fees: "kelp"
+      fees: {
+        adapter: "kelp",
+        genuineSpikes: [
+          ["2026-05-15", "rsETH protocol operations fully resumed and exchange rate updated"], //https://x.com/KelpDAO/status/2055307283647844495
+        ]
+      }
     }
   },
   {

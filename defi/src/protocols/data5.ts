@@ -16449,7 +16449,12 @@ const data5: Protocol[] = [
     twitter: "saturn_credit",
     listedAt: 1775766807,
     dimensions: {
-      fees: "saturn-protocol",
+      fees: {
+        adapter: "saturn-protocol",
+        genuineSpikes: [
+          ["2026-05-15", "STRC price drop due to ex-dividend event"],
+        ]
+      }
     }
   },
   {
