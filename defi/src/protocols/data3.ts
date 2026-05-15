@@ -31266,7 +31266,8 @@ const data3_1: Protocol[] = [
     listedAt: 1707227945,
     dimensions: {
       fees: "flashtrade",
-      derivatives: "flashtrade"
+      derivatives: "flashtrade",
+      "open-interest": "flashtrade-oi"
     }
   },
   {

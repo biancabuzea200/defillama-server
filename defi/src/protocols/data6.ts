@@ -273,6 +273,10 @@ const data6: Protocol[] = [
     audit_links: ["https://durianandfun.gitbook.io/durianfun/overall-audits"],
     parentProtocol: "parent#durianfun",
     listedAt: 1776659179,
+    dimensions: {
+      dexs: "durianfun-launchpad",
+      fees: "durianfun-launchpad",
+    },
   },
   {
     id: "7720",
@@ -1931,9 +1935,10 @@ const data6: Protocol[] = [
     cmcId: null,
     tags: ["Weighted Pool AMM"],
     chains: ["Solana"],
-    module: "dummy.js",
+    module: "cube/index.js",
     twitter: "cubee_ee",
     github: ["cubee-ee"],
+    listedAt: 1778865839,
     dimensions: {
       dexs: "cube",
       fees: "cube",
