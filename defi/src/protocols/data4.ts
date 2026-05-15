@@ -27451,7 +27451,7 @@ const data4: Protocol[] = [
     name: "Vishwa",
     address: null,
     symbol: "-",
-    url: "https://vishwanetwork.xyz/",
+    url: "https://www.vishwalab.com/",
     description:
       "Vishwa is the verification layer for autonomous capital. As financial execution becomes agent-driven, capital must prove solvency, authorization, and policy compliance before transactions occur. Vishwa uses zero-knowledge proofs to enforce these constraints before execution — agents must cryptographically prove they are authorized and solvent before funds move. This allows institutions to deploy capital programmatically across execution venues while maintaining enforceable constraints. No proof, no execution.",
     chain: "Bitcoin",
@@ -27462,7 +27462,7 @@ const data4: Protocol[] = [
     category: "Anchor BTC",
     chains: ["Bitcoin"],
     module: "vishwa/index.js",
-    twitter: "Vishwa_xyz",
+    twitter: "Vishwa_lab",
     audit_links: ["https://docs.vishwanetwork.xyz/security/audits-and-compliance"],
     listedAt: 1758557154
   },
