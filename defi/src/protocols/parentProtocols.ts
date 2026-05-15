@@ -8677,7 +8677,7 @@ const parentProtocols: IParentProtocol[] = [
   {
     id: "parent#liquidlabs",
     name: "Liquid Labs",
-    url: "https://app.nado.xyz/",
+    url: "https://liqd.ag/",
     description: "Hyperliquid multi-market DEX aggregator and first native ERC20 fair launch platform on HyperEVM.",
     logo: `${baseIconsUrl}/liquid-labs.jpg`,
     gecko_id: "liquidlaunch",
@@ -8688,7 +8688,7 @@ const parentProtocols: IParentProtocol[] = [
   {
     id: "parent#settlex",
     name: "SettleX",
-    url: "https://app.nado.xyz/",
+    url: "https://settlex.finance/",
     description: "Built for Stable Chain, SettleX is a next-generation DEX that connects traders, merchants and AI-driven capital into a single stablecoin ecosystem.",
     logo: `${baseIconsUrl}/settlex.jpg`,
     gecko_id: null,
