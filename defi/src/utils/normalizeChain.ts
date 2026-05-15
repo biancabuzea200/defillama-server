@@ -6023,6 +6023,27 @@ export const chainCoingeckoIds = {
     url: "https://gensyn.network/",
     chainId: 685689,
   },
+  "Moca": {
+    geckoId: "mocaverse",
+    symbol: "MOCA",
+    cmcId: "31526",
+    categories: ["EVM"],
+    twitter: "Moca_Network",
+    url: "https://moca.network/",
+    chainId: 2288,
+    dimensions: {
+      fees: "moca",
+    },
+  },
+  "Strato": {
+    geckoId: null,
+    symbol: null,
+    cmcId: null,
+    categories: ["EVM"],
+    twitter: "strato_net",
+    url: "https://strato.nexus/",
+    github: ["strato-net"],
+  },
 } as unknown as ChainCoinGekcoIds;
 
 // We are creating the list here because, later in the code, we include historical chain labels with the same chain metadata, so, chainCoingeckoIds will have duplicate keys
