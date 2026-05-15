@@ -20431,6 +20431,7 @@ const data4: Protocol[] = [
     chains: ["Hyperliquid L1"],
     module: "dummy.js",
     twitter: "LiquidLaunchHL",
+    parentProtocol: "parent#liquidlabs",
     dimensions: {
       fees: "liquidlaunch",
       dexs: "liquidlaunch"

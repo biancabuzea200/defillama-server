@@ -8676,10 +8676,10 @@ const parentProtocols: IParentProtocol[] = [
   },
   {
     id: "parent#liquidlabs",
-    name: "LiquidLabs",
+    name: "Liquid Labs",
     url: "https://app.nado.xyz/",
     description: "Hyperliquid multi-market DEX aggregator and first native ERC20 fair launch platform on HyperEVM.",
-    logo: `${baseIconsUrl}/liquidlabs.jpg`,
+    logo: `${baseIconsUrl}/liquid-labs.jpg`,
     gecko_id: "liquidlaunch",
     cmcId: null,
     chains: [],
