@@ -3191,5 +3191,48 @@ const data6: Protocol[] = [
       fees: "benddao-lending-v2",
     }
   },
+  {
+    id: "7860",
+    name: "Durianfun AMM",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://durianfun.xyz/
+    description:
+      "Fair-launch meme-token launchpad on KUB. Tokens start on an exponential bonding curve, then graduate to a sealed DurianAMM liquidity pool. No presale, no team allocation, 14.3% of trading fees shared back to creators",
+    chain: "Bitkub",
+    logo: `${baseIconsUrl}/durianfun-amm.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    tags: ["AMM"],
+    chains: ["Bitkub"],
+    module: "dummy.js",
+    twitter: "duriandotfun",
+    audit_links: ["https://durianandfun.gitbook.io/durianfun/overall-audits"],
+    parentProtocol: "parent#durianfun",
+    dimensions: {
+      dexs: "durian-amm",
+      fees: "durian-amm",
+    },
+  },
+  {
+    id: "7861",
+    name: "Euphoria Finance",
+    address: null,
+    symbol: "-",
+    url: "https://euphoria.finance/",
+    description: "Euphoria is a gamified derivatives trading app where users make one-tap price predictions, with CLOB-based market making under the hood and social features like points, streaks, and leaderboards.",
+    chain: "MegaETH",
+    logo: `${baseIconsUrl}/euphoria-finance.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "Derivatives",
+    chains: ["MegaETH"],
+    module: "euphoria-fi/index.js",
+    twitter: "Euphoria_fi",
+    audit_links: ["https://docs.euphoria.finance/euphoria/smart-contract-audit"],
+    listedAt: 1778866523,
+  },
 ];
 export default data6;
