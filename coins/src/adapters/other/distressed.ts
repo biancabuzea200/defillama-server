@@ -67,6 +67,7 @@ export const contracts: { [chain: string]: { [token: string]: string } } = {
     USPD: "0x476ef9ac6d8673e220d0e8bc0a810c2dc6a2aa84", 
     yTUSD: '0x73a052500105205d34daf004eab301916da8190f',
     DGLD: "0xa9299c296d7830a99414d1e5546f5171fa01e9c8",
+    BOBO: "0xb90b2a35c65dbc466b04240097ca756ad2005295",  // invalid price
     USDTC: "0x0f6b862e05a9b528b0002261f9eb616e6c4452e9"
   },
   // beam: {
