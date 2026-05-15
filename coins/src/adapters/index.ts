@@ -208,4 +208,5 @@ export default {
   xaue: require("./rwa/xaue"),
   dCOMP: require("./other/dCOMP"),
   valos: require("./other/valos"),
+  pathUSD: require("./other/pathUSD"),
 };
