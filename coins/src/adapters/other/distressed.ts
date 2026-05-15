@@ -349,6 +349,7 @@ export const contracts: { [chain: string]: { [token: string]: string } } = {
     vDOT: "0xbc33b4d48f76d17a1800afcb730e8a6aaada7fe5", // Hyperbridge was hacked
     WANDER: "0xef0fd52e65ddcdc201e2055a94d2abff6ff10a7a",
     AETX: "0xfe0c0b15798b8c9107cd4aa556a87eb031263e8b",
+    BOBO: "0x570b1533f6daa82814b25b62b5c7c4c55eb83947",  // BOBO is mispriced
     SFUND: "0x633e254585ade6e9d40d2a4b8cc2f3769b94cb48",
     clBTC: "0x8d2757ea27aabf172da4cca4e5474c76016e3dc5", // IS NOT BACKED
     DGLD: "0xd02f50e1017f493ffffa70c8fcf09e349e11d6c9", // dropped to 0, coingecko mispriced it
