@@ -6044,6 +6044,14 @@ export const chainCoingeckoIds = {
     url: "https://strato.nexus/",
     github: ["strato-net"],
   },
+  "Aleo": {
+    geckoId: "aleo",
+    symbol: "ALEO",
+    cmcId: "32193",
+    twitter: "AleoHQ",
+    url: "https://aleo.org/",
+    github: ["AleoNet"],
+  },
 } as unknown as ChainCoinGekcoIds;
 
 // We are creating the list here because, later in the code, we include historical chain labels with the same chain metadata, so, chainCoingeckoIds will have duplicate keys
@@ -6298,6 +6306,7 @@ const chainLabelMap = {
   "heima": "Heima",
   "dango": "Dango",
   "rise": "RISE",
+  "aleo": "Aleo",
 } as { [key: string]: string }
 
 // When we decide to change the display name of a chain, we add the mapping for the new name here
@@ -6354,6 +6363,7 @@ const newChainLabelMap = {
   "orderly": "Orderly Network",
   "area": "Areum Network",
   "dango": "Dango Mainnet",
+  "aleo": "ALEO",
 } as { [key: string]: string }
 
 const allChainLabelMap = {
