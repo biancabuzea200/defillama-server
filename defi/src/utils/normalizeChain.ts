@@ -6044,7 +6044,7 @@ export const chainCoingeckoIds = {
     url: "https://strato.nexus/",
     github: ["strato-net"],
   },
-  "Aleo": {
+  "ALEO": {
     geckoId: "aleo",
     symbol: "ALEO",
     cmcId: "32193",
