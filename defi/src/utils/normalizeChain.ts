@@ -3533,6 +3533,9 @@ export const chainCoingeckoIds = {
     url: "https://www.lukso.network",
     github: ["lukso-network"],
     chainId: 42,
+    dimensions: {
+      fees: "lukso",
+    },
   },
   "Joltify": {
     geckoId: "joltify",
@@ -5964,6 +5967,9 @@ export const chainCoingeckoIds = {
     twitter: "fluentxyz",
     url: "https://www.fluent.xyz/",
     chainId: 25363,
+    dimensions: {
+      fees: "fluent",
+    },
   },
   "Pharos": {
     geckoId: "pharos-network",
