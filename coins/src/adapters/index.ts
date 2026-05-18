@@ -206,6 +206,7 @@ export default {
   safo: require("./rwa/safo"),
   brix: require("./rwa/brix"),
   xaue: require("./rwa/xaue"),
+  r25: require("./rwa/r25"),
   dCOMP: require("./other/dCOMP"),
   valos: require("./other/valos"),
   pathUSD: require("./other/pathUSD"),
