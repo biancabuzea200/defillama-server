@@ -38491,6 +38491,9 @@ const data3_2: Protocol[] = [
     twitter: "Fathom_fi",
     parentProtocol: "parent#fathom",
     listedAt: 1712156169,
+    dimensions: {
+      fees: "fathom-cdp"
+    }
   },
   {
     id: "4425",

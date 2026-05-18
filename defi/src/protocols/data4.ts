@@ -2999,6 +2999,9 @@ const data4: Protocol[] = [
     module: "libre-capital/index.js",
     twitter: "KAIO_xyz",
     listedAt: 1738172664,
+    dimensions: {
+      fees: "kaio"
+    }
   },
   {
     id: "5690",
@@ -17587,6 +17590,10 @@ const data4: Protocol[] = [
     module: "xflows/index.js",
     twitter: "wanchain_org",
     listedAt: 1750181745,
+    dimensions: {
+      fees: "xflows",
+      dexs: "xflows",
+    }
   },
   {
     id: "6318",
@@ -30490,6 +30497,9 @@ const data4: Protocol[] = [
     audit_links: ["https://docs.primefi.xyz/audits"],
     github: ["PrimeNumbersLabs"],
     listedAt: 1761083999,
+    dimensions: {
+      fees: "primefi-xyz"
+    }
   },
   {
     id: "6893",

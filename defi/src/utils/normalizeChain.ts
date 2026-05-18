@@ -5285,6 +5285,9 @@ export const chainCoingeckoIds = {
     twitter: "kasplex",
     url: "https://kasplex.org/",
     github: ["kasplex"],
+    dimensions: {
+      fees: "kasplex",
+    },
   },
   "0G": {
     geckoId: "zero-gravity",

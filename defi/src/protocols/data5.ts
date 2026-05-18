@@ -3826,6 +3826,9 @@ const data5: Protocol[] = [
       "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/Mu%20Protocol%20-%20SlowMist%20Audit%20Report.pdf",
     ],
     listedAt: 1764288644,
+    dimensions: {
+      fees: "mu-digital",
+    },
   },
   {
     id: "7056",
