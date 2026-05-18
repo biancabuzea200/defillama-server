@@ -1201,36 +1201,20 @@ const data4: Protocol[] = [
     url: "https://app.silo.finance",
     description: "Silo Finance creates permissionless and risk-isolated lending markets.",
     chain: "Arbitrum",
-    logo: `${baseIconsUrl}/silo-finance.png`,
+    logo: `${baseIconsUrl}/silo-v2.jpg`,
     audits: "2",
     gecko_id: null,
     cmcId: null,
     category: "Lending",
     chains: ["Arbitrum", "Sonic", "Avalanche"],
     oraclesBreakdown: [
-      {
-        name: "RedStone",
-        type: "Primary",
-        proof: ["https://app.silo.finance", "https://github.com/DefiLlama/defillama-server/pull/9560"],
-        chains: [
-          {chain: "Sonic"},
-          {chain: "Ethereum"}
-        ],
+      {name: "RedStone",type: "Primary",proof: ["https://app.silo.finance", "https://github.com/DefiLlama/defillama-server/pull/9560"],
+        chains: [{chain: "Sonic"},{chain: "Ethereum"}],
       },
-      {
-        name: "eOracle",
-        type: "Primary",
-        proof: ["https://app.silo.finance/markets/avalanche/xbtc-btcb-130?action=deposit&token=0", "https://app.silo.finance/markets/avalanche/xusd-usdc-129?action=deposit&token=0", "https://app.silo.finance/markets/arbitrum/xusd-usdc-146?action=deposit", "https://app.silo.finance/markets/arbitrum/xusd-usdc-146?action=deposit"],
-        chains: [
-          {chain: "Avalanche"},
-          {chain: "Arbitrum"},
-        ],
+      {name: "eOracle",type: "Primary",proof: ["https://app.silo.finance/markets/avalanche/xbtc-btcb-130?action=deposit&token=0", "https://app.silo.finance/markets/avalanche/xusd-usdc-129?action=deposit&token=0", "https://app.silo.finance/markets/arbitrum/xusd-usdc-146?action=deposit", "https://app.silo.finance/markets/arbitrum/xusd-usdc-146?action=deposit"],
+        chains: [{chain: "Avalanche"},{chain: "Arbitrum"}],
       },
-       {
-        name: "Chainlink",
-        type: "Secondary",
-        proof: ["https://github.com/DefiLlama/defillama-server/pull/9388", "https://silopedia.silo.finance/oracles"],
-      },
+       {name: "Chainlink",type: "Secondary",proof: ["https://github.com/DefiLlama/defillama-server/pull/9388", "https://silopedia.silo.finance/oracles"],},
     ],
     module: "silo-v2/index.js",
     twitter: "SiloFinance",
@@ -16373,7 +16357,7 @@ const data4: Protocol[] = [
     id: "6267",
     name: "Stellar DEX",
     address: null,
-    symbol: "XLM",
+    symbol: "-",
     url: "https://developers.stellar.org/docs/learn/fundamentals/liquidity-on-stellar-sdex-liquidity-pools",
     description:
       "The Stellar network acts as a decentralized distributed exchange that allows users to trade and convert assets with the network's Offer operations",
