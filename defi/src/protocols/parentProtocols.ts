@@ -9691,6 +9691,18 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "BullpenFi",
   },
+  { 
+    id: "parent#tradoor",
+    name: "Tradoor",
+    url: "https://tradoor0.xyz",
+    description: "Trade Perps and Options with less money upfront, and enjoy private, one-tap trades, with no hidden costs.",
+    logo: `${baseIconsUrl}/tradoor.jpg`,
+    gecko_id: "tradoor",
+    cmcId: null,
+    chains: [],
+    twitter: "tradoor_io",
+    github: ["TonTradoor"],
+  },
 ];
 
 export default parentProtocols;

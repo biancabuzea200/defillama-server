@@ -3333,5 +3333,94 @@ const data6: Protocol[] = [
     twitter: "TheLifeDAO_io",
     listedAt: 1778908147,
   },
+  {
+    id: "7867",
+    name: "Tradoor Perps Aggregator",
+    address: "bsc:0x9123400446a56176eb1b6be9ee5cf703e409f492",
+    symbol: "TRADOOR",
+    url: "https://tradoor0.xyz",
+    description:
+      "An automated market-making aggregator for perpetual futures on Hyperliquid and connected venues.",
+    chain: "Hyperliquid L1",
+    logo: `${baseIconsUrl}/tradoor-perps-aggregator.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    tags: ["Hyperliquid Builder"],
+    chains: ["Hyperliquid L1"],
+    module: "dummy.js",
+    twitter: "tradoor_io",
+    parentProtocol: "parent#tradoor",
+    dimensions: {
+      derivatives: "tradoor-perps",
+      fees: "tradoor-perps",
+    }
+  },
+  {
+    id: "7868",
+    name: "Reental",
+    address: "polygon:0x27ab6e82f3458edbc0703db2756391b899ce6324",
+    symbol: "RNT",
+    url: " ", // pending to add url https://www.reental.co/en
+    description:
+      "Reental is a real estate tokenization platform where users buy fractional property tokens and receive rental income or project returns from the underlying assets.",
+    chain: "Polygon",
+    logo: `${baseIconsUrl}/reental.jpg`,
+    audits: "0",
+    gecko_id: "reental",
+    cmcId: "31988",
+    tags: ["Real Estate"],
+    chains: ["Polygon"],
+    module: "dummy.js",
+    twitter: "Reental_co",
+    dimensions: {
+      fees: "reental",
+    }
+  },
+  {
+    id: "7869",
+    name: "Challenge4Trading Perp",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://www.challenge4trading.com/
+    description:
+      "Challenge4Trading Perp (C4T) is a perpetuals trading protocol on Arbitrum.",
+    chain: "Arbitrum",
+    logo: `${baseIconsUrl}/challenge4trading-perp.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Derivatives",
+    chains: ["Arbitrum"],
+    module: "dummy.js",
+    twitter: "Challenge4Trade",
+    github: ["dbehar753"],
+    dimensions: {
+      fees: "challenge4trading-perp",
+      derivatives: "challenge4trading-perp",
+      'open-interest': "challenge4trading-perp",
+    }
+  },
+  {
+    id: "7870",
+    name: "OpenChat",
+    address: "icp:2ouva-viaaa-aaaaq-aaamq-cai",
+    symbol: "CHAT",
+    url: " ", // pending to add url https://oc.app/
+    description:
+      "Community-owned chat application built for privacy, security and anonymity.",
+    chain: "ICP",
+    logo: `${baseIconsUrl}/openchat.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "SoFi",
+    chains: ["ICP"],
+    module: "dummy.js",
+    twitter: "OpenChat",
+    dimensions: {
+      fees: "openchat",
+    }
+  },
 ];
 export default data6;
