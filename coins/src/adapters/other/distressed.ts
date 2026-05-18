@@ -93,6 +93,13 @@ export const contracts: { [chain: string]: { [token: string]: string } } = {
   klaytn: {
     USDK: "0xd2137fdf10bd9e4e850c17539eb24cfe28777753",
   },
+  verus: {  // verus bridge is hacked
+    DAI: "iGBs4DWztRNvNEJBt4mqHszLxfKTNHTkhM",
+    MKR: "iCkKJuJScy4Z6NSDK7Mt42ZAB2NEnAE1o4",
+    ETH: "i9nwxtKuVYX4MSbeULLiK2ttVi6rUEhh4X",
+    TBTC: "iS8TfRPfVpKo5FVfSUzfHBQxo9KuzpnqLU",
+    USDT: "i9oCSqKALwJtcv49xUKS2U2i79h1kX6NEY",
+  },
   arbitrum: {
     GOLD: "0xc4be0798e5b5b1C15edA36d9B2D8c1A60717fA92",
     BIFI: "0x99c409e5f62e4bd2ac142f17cafb6810b8f0baae",
