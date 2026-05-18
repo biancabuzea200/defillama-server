@@ -3444,5 +3444,67 @@ const data6: Protocol[] = [
       fees: "aegis-jusd",
     },
   },
+  {
+    id: "7872",
+    name: "MemeMax",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://mememax.com/
+    description:
+      "MemeMax is a perpetual DEX routed through the Orderly Network.",
+    chain: "Orderly",
+    logo: `${baseIconsUrl}/mememax.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    tags: ["Orderly Builder"],
+    chains: ["Orderly"],
+    module: "dummy.js",
+    twitter: "MemeMax_Fi",
+    dimensions: {
+      fees: "mememax",
+      derivatives: "mememax"
+    }
+  },
+  {
+    id: "7873",
+    name: "Kerne",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://kerne.fi
+    description:
+      "Kerne is a delta-neutral yield protocol on Base. The vault (ERC-4626) holds WETH collateral and runs a delta-neutral basis trade: stETH on the long leg, Hyperliquid perp short on the short leg.",
+    chain: "Base",
+    logo: `${baseIconsUrl}/kerne.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Basis Trading",
+    chains: ["Base"],
+    module: "kerne-protocol/index.js",
+    twitter: "KerneProtocol",
+    listedAt: 1779125555,
+  },
+  {
+    id: "7874",
+    name: "ParyonUSD",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://paryonusd.com/
+    description:
+      "ParyonUSD is a decentralized BCH-collateralized stablecoin protocol on Bitcoin Cash. Users borrow PUSD against BCH collateral, with delegated interest management, a stability pool for liquidations, and native staking on collected interest.",
+    chain: "Bitcoincash",
+    logo: `${baseIconsUrl}/paryonusd.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "CDP",
+    chains: ["Bitcoincash"],
+    module: "paryonusd/index.js",
+    twitter: "ParyonUSD",
+    github: ["ParyonUSD"],
+    audit_links: ["https://sighash.xyz/audits/paryonusd.pdf"],
+    listedAt: 1779125772,
+  },
 ];
 export default data6;
