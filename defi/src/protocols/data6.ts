@@ -3422,5 +3422,27 @@ const data6: Protocol[] = [
       fees: "openchat",
     }
   },
+  {
+    id: "7871",
+    name: "Aegis JUSD",
+    address: null,
+    symbol: "-",
+    url: "https://app.aegis.im",
+    description:
+      "Aegis performs funding rate arbitrage through delta-neutral trades in spot and perpetual markets, effectively generating profits from funding fees. These fees, disbursed three times daily, align perpetual contract and spot prices, ultimately rewarding YUSD holders.",
+    chain: "Ethereum",
+    logo: `${baseIconsUrl}/aegis-jusd.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Basis Trading",
+    chains: ["Ethereum"],
+    module: "dummy.js",
+    twitter: "aegis_im",
+    parentProtocol: "parent#aegis",
+    dimensions: {
+      fees: "aegis-jusd",
+    },
+  },
 ];
 export default data6;

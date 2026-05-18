@@ -10740,14 +10740,14 @@ const data4: Protocol[] = [
   },
   {
     id: "6024",
-    name: "Aegis",
+    name: "Aegis YUSD",
     address: null,
     symbol: "-",
     url: "https://app.aegis.im",
     description:
       "Aegis performs funding rate arbitrage through delta-neutral trades in spot and perpetual markets, effectively generating profits from funding fees. These fees, disbursed three times daily, align perpetual contract and spot prices, ultimately rewarding YUSD holders.",
     chain: "Ethereum",
-    logo: `${baseIconsUrl}/aegis.jpg`,
+    logo: `${baseIconsUrl}/aegis-yusd.jpg`,
     audits: "0",
     gecko_id: null,
     cmcId: null,
@@ -10755,8 +10755,7 @@ const data4: Protocol[] = [
     chains: ["Ethereum", "Binance"],
     module: "aegis-yusd/index.js",
     twitter: "aegis_im",
-    github: ["Aegis-im"],
-    stablecoins: ["aegis-yusd"],
+    parentProtocol: "parent#aegis",
     listedAt: 1744284096,
     dimensions: {
       fees: "aegis-yusd",

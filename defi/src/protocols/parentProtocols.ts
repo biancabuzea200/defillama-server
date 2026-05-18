@@ -9703,6 +9703,19 @@ const parentProtocols: IParentProtocol[] = [
     twitter: "tradoor_io",
     github: ["TonTradoor"],
   },
+  { 
+    id: "parent#aegis",
+    name: "Aegis",
+    url: "https://aegis.im/",
+    description: "YUSD & jUSD offer risk-adjusted yields through delta-neutral strategies.",
+    logo: `${baseIconsUrl}/aegis.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "aegis_im",
+    github: ["Aegis-im"],
+    stablecoins: ["aegis-yusd"],
+  },
 ];
 
 export default parentProtocols;
