@@ -1662,6 +1662,10 @@ const data6: Protocol[] = [
     twitter: "Kroko_Swap",
     parentProtocol: "parent#krokoswap",
     listedAt: 1777849011,
+    dimensions: {
+      fees: "krokoswap-v3",
+      dexs: "krokoswap-v3",
+    }
   },
   {
     id: "7785",
